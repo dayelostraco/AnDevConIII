@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnDevConIII</string>
+    <string name="hapticButton1Text">bounce33</string>
+    <string name="hapticButton2Text">bounce66</string>
+    <string name="hapticButton3Text">bounce100</string>
+    <string name="hapticButton4Text">double sharp click 100</string>
+    <string name="hapticButton5Text">alert 9</string>
+    <string name="helloWorld">Hello World, MyActivity</string>
+</resources>
