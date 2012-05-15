@@ -1,10 +1,11 @@
-package com.sparcedge.andevconIII;
+package com.sparcedge.andevconiii;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import com.immersion.uhl.Launcher;
+import com.sparcedge.andevconIII.R;
 
 public class HapticActivity extends Activity {
 
