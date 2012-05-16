@@ -10,26 +10,27 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="com.sparcedge.andevconiii.HapticActivity"
+        <activity android:name="com.sparcedge.andevconiii.AnDevConIIIActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name="com.sparcedge.andevconiii.HapticExampleActivity"
+                  android:label="@string/app_name">
         </activity>
         <activity android:name="com.sparcedge.andevconiii.ActionBarExampleActivity"
                   android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name="com.sparcedge.andevconiii.AugmentedRealityExampleActivity"
                   android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+        </activity>
+        <activity android:name="com.sparcedge.andevconiii.TextToSpeechExampleActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="com.sparcedge.andevconiii.SpeechRecognitionExampleActivity"
+                  android:label="@string/app_name">
         </activity>
     </application>
 </manifest>

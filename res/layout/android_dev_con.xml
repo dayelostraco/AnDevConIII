@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:id="@+id/demoTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hapticTitle"/>
+    <Button android:id="@+id/ttsDemoButton"
+            android:text="@string/mainTtsButtonText"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/demoTitle"/>
+    <Button android:id="@+id/speechRecDemoButton"
+            android:text="@string/mainSpeechRecognitionButtonText"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/ttsDemoButton"/>
+    <Button android:id="@+id/hapticDemoButton"
+            android:text="@string/mainHapticButtonText"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/speechRecDemoButton"/>
+    <Button android:id="@+id/arDemoButton"
+            android:text="@string/mainArButtonText"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/hapticDemoButton"/>
+
+</RelativeLayout>

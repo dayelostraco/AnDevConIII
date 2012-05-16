@@ -29,6 +29,8 @@ import java.util.Vector;
  */
 public class AugmentedRealityExampleActivity extends Activity {
 
+    public static final int REQUEST_CODE = 4;
+
     /**
      * Called when the activity is first created.
      */
@@ -165,9 +167,15 @@ public class AugmentedRealityExampleActivity extends Activity {
         }
     }
 
+    @Override
     public void onDestroy() {
         super.onDestroy();
         cv.closeCamera();
         ar.close();
+    }
+
+    @Override
+    public void onBackPressed(){
+        onDestroy();
     }
 }

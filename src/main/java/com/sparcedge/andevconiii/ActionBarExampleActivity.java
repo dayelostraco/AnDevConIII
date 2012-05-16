@@ -11,6 +11,8 @@ import com.actionbarsherlock.view.Menu;
  */
 public class ActionBarExampleActivity extends SherlockActivity {
 
+    public static final int REQUEST_CODE = 5;
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

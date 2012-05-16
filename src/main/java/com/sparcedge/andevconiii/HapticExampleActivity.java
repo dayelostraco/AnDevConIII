@@ -7,8 +7,9 @@ import android.widget.Button;
 import com.immersion.uhl.Launcher;
 import com.sparcedge.andevconIII.R;
 
-public class HapticActivity extends Activity {
+public class HapticExampleActivity extends Activity {
 
+    public static final int REQUEST_CODE = 3;
     private Launcher viblauncher;
 
     @Override
@@ -18,15 +19,14 @@ public class HapticActivity extends Activity {
 
         try {
             viblauncher = new Launcher(this);
-
-            setButtons();
+            inflateButtons();
 
         } catch (RuntimeException e){
             e.printStackTrace();
         }
     }
 
-    private void setButtons(){
+    private void inflateButtons(){
         Button hapticButton1 = (Button) findViewById(R.id.hapticButton1);
         hapticButton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -61,6 +61,11 @@ public class HapticActivity extends Activity {
                 viblauncher.play(Launcher.ALERT9);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed(){
+        onPause();
     }
 
     @Override

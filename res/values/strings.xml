@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AnDevConIII</string>
+    <string name="mainTitle">Android Dev Con III Playable Demo</string>
+    <string name="mainHapticButtonText">Haptic Feedback Demo</string>
+    <string name="mainTtsButtonText">Text to Speech Demo</string>
+    <string name="mainSpeechRecognitionButtonText">Sppech Recognition Demo</string>
+    <string name="mainArButtonText">Augmented Reality Demo</string>
+    <string name="hapticTitle">Haptic Feedback Demo</string>
     <string name="hapticButton1Text">bounce33</string>
     <string name="hapticButton2Text">bounce66</string>
     <string name="hapticButton3Text">bounce100</string>
     <string name="hapticButton4Text">double sharp click 100</string>
     <string name="hapticButton5Text">alert 9</string>
-    <string name="helloWorld">Hello World, MyActivity</string>
+    <string name="speechRecTitle">Android Speech Recognition Demo</string>
+    <string name="speechRecButton1">Ask a question</string>
+    <string name="ttsTitle">Android Text-To-Speech Demo</string>
+    <string name="ttsButton1">Say Hello…</string>
 </resources>
