@@ -4,7 +4,7 @@
     <string name="mainTitle">Android Dev Con III Playable Demo</string>
     <string name="mainHapticButtonText">Haptic Feedback Demo</string>
     <string name="mainTtsButtonText">Text to Speech Demo</string>
-    <string name="mainSpeechRecognitionButtonText">Sppech Recognition Demo</string>
+    <string name="mainSpeechRecognitionButtonText">Speech Recognition Demo</string>
     <string name="mainArButtonText">Augmented Reality Demo</string>
     <string name="hapticTitle">Haptic Feedback Demo</string>
     <string name="hapticButton1Text">bounce33</string>

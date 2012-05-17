@@ -7,7 +7,7 @@
             android:id="@+id/demoTitle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hapticTitle"/>
+            android:text="@string/mainTitle"/>
     <Button android:id="@+id/ttsDemoButton"
             android:text="@string/mainTtsButtonText"
             android:layout_height="wrap_content"

@@ -8,6 +8,14 @@
     <packaging>apk</packaging>
     <name>AnDevConIII</name>
 
+    <repositories>
+        <repository>
+            <id>springsource-milestone</id>
+            <name>SpringSource Milestone Repository</name>
+            <url>http://repo.springsource.org/milestone</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
@@ -20,6 +28,11 @@
             <artifactId>library</artifactId>
             <version>4.0.0</version>
             <type>apklib</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.android</groupId>
+            <artifactId>spring-android-rest-template</artifactId>
+            <version>1.0.0.RC1</version>
         </dependency>
     </dependencies>
 
