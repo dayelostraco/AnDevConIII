@@ -103,6 +103,10 @@ public class SpeechRecognitionExampleActivity extends Activity implements TextTo
             XPathExpression expr = xpath.compile("/queryresult/pod[@title='Result']/subpod[@title='']/plaintext/text()");
             Object result = expr.evaluate(doc, XPathConstants.STRING);
 
+            if(result.equals("")){
+                return "Could not find an answer";
+            }
+
             return result.toString();
 
         } catch (Exception e){
