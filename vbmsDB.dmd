@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="vbmsDB" id="FED2C15B-E98D-18EF-1B95-03D65FEC502D" version="3.5">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 17:59:25 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FED2C15B-E98D-18EF-1B95-03D65FEC502D</designId>
+</OSDM_Design>
