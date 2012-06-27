@@ -1,0 +1,282 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" directorySegmentName="seg_0" name="LETTER">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>LETTER_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA75B7FF-D478-096C-D003-78E797F99C7F">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the primary key.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAIM_ID" id="38472338-D339-155C-75FD-798E3AD2BDB9">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is a claim id for the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIQUE_ID" id="9301DE60-FBE4-A1F5-7D7D-103CAED5A57C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is a unique id received from BGS for the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_TYPE" id="9991A0C4-DF3B-E17D-7104-141F0F31B754">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the type of the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALUTATION" id="F2C6E7EA-268C-E73C-A2A4-BFC6BE56FB5C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the salutation for the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFER_TO_LINE" id="DC28CF7F-0251-74CE-222C-7C116782B691">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the refer to line for the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATIONNUMBER" id="C61C98FC-3421-E6E5-4DB8-483D2C9D1CDC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the station number for the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENTDT" id="EE97C23E-585F-3802-FABF-C2D535AC6AD0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the date the letter was sent.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERATIONDT" id="6F07C39E-501C-6E45-7A9F-2D6D4AA35A63">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the date the letter was generated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSERID" id="E1BB39E2-0EE3-1E92-41F2-45EF1D8499C9">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="BB5AA3FA-3D37-8F2E-F592-36D0F95B9E40">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="E6CCC124-F5F3-51ED-B355-284305140A16">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCUMENT_TYPE_LU_ID" id="44AE8E8E-AAA2-1B33-BB08-3FEA60567602">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the document type id.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVIDER_NAME" id="1AE11682-56BA-9E7F-1F66-D0473029C40D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the name of the third party provider.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVIDER_ADDRESS_ID" id="6FE36F51-2B4A-5101-D53B-89BB3BE7205B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the FK to the Address table for a third party providers address.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="1A193933-56A3-4BB8-F105-4CF1A9D5883C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the soft delete column</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIGNATURE" id="8117C3A6-8A8A-FAC1-4235-8E12320E87CC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<commentInRDBMS>This is the signature for the RO provided from the page.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58CC3C82-562B-63EC-7CB2-C2B683DC80BF" name="LETTER_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BA75B7FF-D478-096C-D003-78E797F99C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04C864DB-3823-1151-EA5D-842002AADE4B" name="LETTER_CLAIM_IDX">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="38472338-D339-155C-75FD-798E3AD2BDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C562F2E-4AEC-C2AC-B649-2F014B40F1AC" name="LETTER_SN_IDX">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="C61C98FC-3421-E6E5-4DB8-483D2C9D1CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0557CF4-6B30-F047-7944-732C98B92BD7" name="LETTER_VU_IDX">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="E1BB39E2-0EE3-1E92-41F2-45EF1D8499C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

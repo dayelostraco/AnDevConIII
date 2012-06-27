@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage1" id="A56DAC81-B2AF-95EF-0A7E-849F9FFCF947" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<maxTrans>255</maxTrans>
+<scInitialExtent>65536</scInitialExtent>
+<scMaxExtents>2147483645</scMaxExtents>
+</SegmentOraclev10g>

@@ -4,6 +4,7 @@
 <createdTime>2012-06-27 00:43:36 UTC</createdTime>
 <commentInRDBMS>This table contains the development plan_task information.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>DEVPLNTSK_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>

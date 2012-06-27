@@ -4,6 +4,7 @@
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
 <commentInRDBMS>This table contains the development task information related to a development plan.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>DEVTASK_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
@@ -154,7 +155,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <checkConstraint>
-<implementationDef dbType="Oracle Database 10g" definition="UNIQUEIND	IN (0,1)"/>
+<implementationDef dbType="Oracle Database 10g" definition="UNIQUEIND IN (0,1)"/>
 </checkConstraint>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

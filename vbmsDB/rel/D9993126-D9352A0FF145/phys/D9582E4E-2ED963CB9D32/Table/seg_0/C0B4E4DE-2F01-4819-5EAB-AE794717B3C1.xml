@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="LETTER" id="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A56DAC81-B2AF-95EF-0A7E-849F9FFCF947</segment>
+<tableSpace>533DE26C-711B-F44E-7F48-0673C2775B42</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="EXPIRATIONDT" id="1A193933-56A3-4BB8-F105-4CF1A9D5883C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="PROVIDER_NAME" id="1AE11682-56BA-9E7F-1F66-D0473029C40D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CLAIM_ID" id="38472338-D339-155C-75FD-798E3AD2BDB9">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DOCUMENT_TYPE_LU_ID" id="44AE8E8E-AAA2-1B33-BB08-3FEA60567602">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="GENERATIONDT" id="6F07C39E-501C-6E45-7A9F-2D6D4AA35A63">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="PROVIDER_ADDRESS_ID" id="6FE36F51-2B4A-5101-D53B-89BB3BE7205B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="SIGNATURE" id="8117C3A6-8A8A-FAC1-4235-8E12320E87CC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="UNIQUE_ID" id="9301DE60-FBE4-A1F5-7D7D-103CAED5A57C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LETTER_TYPE" id="9991A0C4-DF3B-E17D-7104-141F0F31B754">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="BA75B7FF-D478-096C-D003-78E797F99C7F">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CREATEDT" id="BB5AA3FA-3D37-8F2E-F592-36D0F95B9E40">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="STATIONNUMBER" id="C61C98FC-3421-E6E5-4DB8-483D2C9D1CDC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="REFER_TO_LINE" id="DC28CF7F-0251-74CE-222C-7C116782B691">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="VBMSUSERID" id="E1BB39E2-0EE3-1E92-41F2-45EF1D8499C9">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LASTUPDATEDT" id="E6CCC124-F5F3-51ED-B355-284305140A16">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="SENTDT" id="EE97C23E-585F-3802-FABF-C2D535AC6AD0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="SALUTATION" id="F2C6E7EA-268C-E73C-A2A4-BFC6BE56FB5C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LETTER_CLAIM_IDX" id="04C864DB-3823-1151-EA5D-842002AADE4B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<segment>731DB386-C854-0127-F483-42BD17C99693</segment>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>533DE26C-711B-F44E-7F48-0673C2775B42</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LETTER_SN_IDX" id="6C562F2E-4AEC-C2AC-B649-2F014B40F1AC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<segment>731DB386-C854-0127-F483-42BD17C99693</segment>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>533DE26C-711B-F44E-7F48-0673C2775B42</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LETTER_VU_IDX" id="E0557CF4-6B30-F047-7944-732C98B92BD7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<segment>731DB386-C854-0127-F483-42BD17C99693</segment>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>533DE26C-711B-F44E-7F48-0673C2775B42</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LETTER_PK" id="58CC3C82-562B-63EC-7CB2-C2B683DC80BF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:08:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>533DE26C-711B-F44E-7F48-0673C2775B42</tableSpace>
+<indexSegment>731DB386-C854-0127-F483-42BD17C99693</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

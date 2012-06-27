@@ -4,6 +4,7 @@
 <createdTime>2012-06-27 02:02:32 UTC</createdTime>
 <commentInRDBMS>STANDARD OUTPUT ARGUMENT. Defines substitution parameters within a paragraph that are used to insert user entered variables or programatically derived data (from the database) into the text of a paragraph.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>STD_OUTPUT_ARGMT_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>

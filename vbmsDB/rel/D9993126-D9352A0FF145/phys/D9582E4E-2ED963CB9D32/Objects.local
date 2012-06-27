@@ -1,12 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>
-   <object objectType="TSpace" objectID="96300127-852B-0FAD-205E-939F65BD7BE1" name="USERS" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="533DE26C-711B-F44E-7F48-0673C2775B42" name="USERS" seqName="seg_0"/>
    <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
    <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
-   <object objectType="User" objectID="ED038069-88A7-57F3-D61B-D95898319C19" name="VBMSUI" seqName="seg_0"/>
+   <object objectType="User" objectID="698E5AED-6B01-3BE9-CE16-0C66C6723CBB" name="VBMSUI" seqName="seg_0"/>
    <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
    <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
    <object objectType="Table" objectID="188AF0AB-17A3-8263-2F42-0497575D0D89" name="STANDARDPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Table" objectID="1B1277CF-019F-4D1E-D7D9-0C4957A6C454" name="CUSTOMPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="49340920-A9EA-668B-F100-AE4F05B80B8A" name="DEVELOPMENTPLANTASK" seqName="seg_0"/>
    <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
    <object objectType="Table" objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
@@ -15,10 +16,12 @@
    <object objectType="Table" objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
    <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" name="DEVELOPMENTPLAN" seqName="seg_0"/>
+   <object objectType="Table" objectID="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" name="LETTER" seqName="seg_0"/>
    <object objectType="Table" objectID="C9C9AC8F-3781-8212-D9B8-2B186115DB1F" name="DEVELOPMENTACTION" seqName="seg_0"/>
    <object objectType="Table" objectID="CB060F52-F106-4033-6DB3-BF8570B418D5" name="DEVELOPMENTACTIVITY" seqName="seg_0"/>
    <object objectType="Table" objectID="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" name="FILLIN" seqName="seg_0"/>
-   <object objectType="Segment" objectID="D88E4217-5BE1-0A43-BD77-EA8DACBD82F6" name="Storage1" seqName="seg_0"/>
-   <object objectType="Segment" objectID="E3EAD006-532F-DECC-B426-744F4891992C" name="Storage2" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="5D946C12-89D1-6390-6D28-33F7C35E60CE" name="BEFORE_UPD_DEVPTA" seqName="seg_0"/>
+   <object objectType="Segment" objectID="A56DAC81-B2AF-95EF-0A7E-849F9FFCF947" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="731DB386-C854-0127-F483-42BD17C99693" name="Storage2" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="1B8FAD37-A865-D826-E954-9E4A049BAA93" name="BEFORE_INS_LETTER" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5D87443B-1B82-53F5-31DA-F83397880746" name="BEFORE_UPD_LETTER" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

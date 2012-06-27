@@ -4,6 +4,7 @@
 <createdTime>2012-06-27 02:09:12 UTC</createdTime>
 <commentInRDBMS>STANDARD PARAGRAPH. This entity contains a standard block of text.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>STD_PRGRPH_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>

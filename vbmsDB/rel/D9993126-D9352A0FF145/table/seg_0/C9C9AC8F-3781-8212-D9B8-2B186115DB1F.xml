@@ -4,6 +4,7 @@
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
 <commentInRDBMS>This is the STD_DVLPMT_ACTION table. These are actions used to &quot;develop&quot; a claim. They are included in various outgoing documents and are used to either disperse information to or gather information from a claimaint or a third party for a specific claim.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>STD_DVLPMT_ACTION_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
