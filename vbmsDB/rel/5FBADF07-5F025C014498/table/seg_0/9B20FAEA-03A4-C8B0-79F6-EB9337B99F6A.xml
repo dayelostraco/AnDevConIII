@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="9B20FAEA-03A4-C8B0-79F6-EB9337B99F6A" directorySegmentName="seg_0" name="DEVPLANTASKNOTE">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This table contains internal notes.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>632E388F-3FD4-E2B3-C529-A346D798974C</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>DEVPLANTASKNOTE_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A5A19A43-213F-0BA1-F728-C318B2202F45">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the identifier of the development plan task note.  This field is a numeric field and is used solely as a primary key.  This field is populated by the sequence .</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>7A8D25C9-9C71-7884-F0DA-A74D2361AE41</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSER_ID" id="F6DD8004-7435-902D-6CC8-01BFDD31EA86">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The VBMSUSER_ID field is a foreign key field which references the ID field of the VBMSUSER table.  This is the user who created the internal note.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>631672DC-E638-FDDF-E638-018F5B0B345E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NARRATIVE" id="F75C4A4A-DF6F-D311-E679-6D3009344B55">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the narrative text of the development plan task note (i.e. the note itself).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>E3670B82-0CAF-FD38-E883-20402D6752EC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45A5F826-C53D-C7B1-F0CC-AE50544B79FE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVPLANTASK_ID" id="803E148E-5173-1D05-447E-4214150D5195">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This value stores the ID of the VBMS item that this development plan task note is associated to</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DEE72065-862A-77ED-4C92-4D7C4B6B532A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>671D324C-F973-6F75-D41B-06B5E88933E5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58CFF18B-929D-12BC-9428-87247DBE6DD1" referredColumn="671D324C-F973-6F75-D41B-06B5E88933E5"/>
+</associations>
+</Column>
+<Column name="ACTIONTAKEN" id="1948AD22-B147-5D5C-58B7-F49A0E603F0F">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the action taken column that captures certain user selections from the Work Item Detail drop-down.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>9399F818-0F56-11DC-4A88-B00891F8E769</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43881A09-F15C-8064-3E03-D221A6832432</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERSION" id="0CC315C5-E56A-89A0-C25A-5936CECDA5DA">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the version column that JPA uses to implement optimistic locking</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>E8AFFDC2-5275-EC5D-04A0-C6B9053F5DE2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDITABLEIND" id="724F3515-6E91-15DB-CBCF-481F24FB7E28">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the editable flag column. Default is to 1 (true).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>337EFB38-739E-3CB3-BB35-8E3FCF5CA4A4</importedID>
+<constraintName>DEVPLANTASKNOTE_EDITIND_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>1</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="EDITABLEIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="637BCBE3-6AB7-A468-A1A9-38BCDA42BCBB">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development plan task note record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>F0BB8619-5949-EF58-0C0B-288F931B7302</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="5339F7AF-97F5-1B31-2835-0554947DF35C">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development plan task note record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>C4D035B8-C8FE-D36A-6C47-520270AE5EC1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="6C6D1190-8AD5-6611-F737-A0B2CFCFD91F">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the soft delete date - null means our item is still active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>CE5E7DD7-7DBA-BDDD-628E-53471A53AF1F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB305BB4-4833-FBCA-097D-C49C05EB38C7" name="DEVPLANTASKNOTE_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>BB5A3555-249B-575D-A29F-40A9C9576EF0</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A5A19A43-213F-0BA1-F728-C318B2202F45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7229C258-A303-B2D6-8252-F7DB8E846EF5" name="DEVPLANTASKNOTE_DTID_LU_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="803E148E-5173-1D05-447E-4214150D5195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

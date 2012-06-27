@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="VBMSUI" id="ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07" directorySegmentName="seg_0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+</UserOraclev10g>

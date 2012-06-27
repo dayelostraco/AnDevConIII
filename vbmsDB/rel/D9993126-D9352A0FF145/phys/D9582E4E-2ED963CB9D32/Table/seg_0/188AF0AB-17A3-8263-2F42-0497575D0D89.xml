@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="STANDARDPARAGRAPH" id="188AF0AB-17A3-8263-2F42-0497575D0D89" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D88E4217-5BE1-0A43-BD77-EA8DACBD82F6</segment>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="931E67FE-B695-E235-377C-4FAD1E012AF0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STANDARDPARAGRAPH_PK" id="CA32733F-F206-4472-EB92-D604F4F90059">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<indexSegment>E3EAD006-532F-DECC-B426-744F4891992C</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

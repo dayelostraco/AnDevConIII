@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5C050DA6-41E9-C216-B92C-4FEFBFD04295" directorySegmentName="seg_0" name="LETTER_SECTIONS">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This table contains letter section information for a Letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>4E20D8A7-78F9-5EFF-3FD7-2CA3831B6FD7</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>LETTER_SECTIONS</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9FC8815F-1145-F906-B7ED-17F590EEEC84">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>32FE1AD6-AE11-7258-8C9E-632E2C1A4AF6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_ID" id="ED595542-C491-232D-0167-173735BF54B3">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the FK Id to the Letter this Letter Section belongs to.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>AD664310-92C2-8AB1-A0A0-A2DE78FC3F93</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>CDD08F05-0EFD-4B49-A009-A20808E82C42</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E6FD6ED-AB8A-5A29-2832-AF59B9DF6982" referredColumn="CDD08F05-0EFD-4B49-A009-A20808E82C42"/>
+</associations>
+</Column>
+<Column name="SECTION_HEADER" id="99B45AE8-79B7-AA13-71CC-0B590907A091">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This represents the Letter Section type. EX - Notes.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>1C82FE83-B850-5B13-32E7-F4621E5CE0CF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0567BCD0-87DE-AFB7-D489-32FC48EBF40D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FREE_TEXT" id="B5180970-51F1-57E3-CB78-D9416B903E3F">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the free text data entered in by a user for use in letter generation.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>FE0B3E89-1E2E-BED0-74DA-00F7184FE012</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>15E427FA-AF7D-0343-5FEB-9C60C6FF59C4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="9E06AB77-12E6-5EF7-3EEE-E60A496AE784">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the created date of the DB record.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>0E49A467-E4B6-947B-3E89-2A8626E367FB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="02AE9FB0-0FC9-66E1-003E-6C0B6B534104">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is last update dt of the DB record.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DDB53726-F23D-3014-B292-107303056856</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="A79B0232-F802-6F64-6158-61ABAC465425">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the soft delete column</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>567C8F81-56AC-4F1A-D335-B4BC47785E37</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A6CA774-0AFC-C68D-4480-F164A68AFD1F" name="LETTER_SECTIONS">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>12DE3DA9-E0BE-4D19-49D2-E1F749192D6A</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9FC8815F-1145-F906-B7ED-17F590EEEC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE8B174-925B-9F11-E23A-C48FF01BC9C0" name="LETTER_SECTIONS_LETTER_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="ED595542-C491-232D-0167-173735BF54B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

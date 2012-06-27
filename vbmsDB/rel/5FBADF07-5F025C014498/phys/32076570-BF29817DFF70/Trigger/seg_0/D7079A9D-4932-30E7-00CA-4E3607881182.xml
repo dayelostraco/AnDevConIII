@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BEFORE_UPD_DVPLNTSKACTACT" id="D7079A9D-4932-30E7-00CA-4E3607881182" directorySegmentName="seg_0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<actions>UPDATE</actions>
+<body>BEGIN&lt;br/&gt;            :NEW.LASTUPDATEDT := SYSDATE;&lt;br/&gt;            END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07</owner>
+<table>DC83CD6B-8F2B-2673-6221-9060427D0821</table>
+</TriggerOraclev10g>

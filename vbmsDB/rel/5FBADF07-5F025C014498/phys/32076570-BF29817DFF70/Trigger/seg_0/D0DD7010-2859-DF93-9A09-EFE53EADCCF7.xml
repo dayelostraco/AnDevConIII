@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BEFORE_INS_DEVPLNTASKACTFILLIN" id="D0DD7010-2859-DF93-9A09-EFE53EADCCF7" directorySegmentName="seg_0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN      		&lt;br/&gt;          		SELECT DEVPLANTASKACTFILLIN_ID_SEQ.NEXTVAL INTO :NEW.ID FROM DUAL;&lt;br/&gt;      		END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.ID IS NULL</condition>
+<owner>ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07</owner>
+<table>A928273E-E618-53FB-FC4A-C896D4849E30</table>
+</TriggerOraclev10g>

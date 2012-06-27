@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="1B39CF92-37B7-7250-413F-93054B84DCC9" name="VBMS R4 Model" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

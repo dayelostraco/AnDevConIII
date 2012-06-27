@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A928273E-E618-53FB-FC4A-C896D4849E30" directorySegmentName="seg_0" name="DEVPLANTASKACTFILLIN">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This table contains the fillin values information related to a development plan.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>773D7CBF-3B14-C5D8-F224-D89CA652629E</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>DPTACTFILLIN_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A30E6BBC-BDC7-BDD5-A257-E634AC809ADE">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The unique ID of the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>90AD7773-D290-D9C4-AD49-4E75C1EEBF14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSER_ID" id="190A47B5-EF6C-7D36-9672-46C91F15A783">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The VBMSUSER_ID field is a foreign key field which references the ID field of the VBMSUSER table.  This is the user who created the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>20FBBC4B-D99B-25E6-2090-4BB33E1CD8EC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARAGRAPH_ID" id="289F6F65-1488-1F5B-F6D9-1E41C61A8DF7">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is an external id for the Paragraph.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>AA4E61CC-BED3-4F69-9BEA-EE2AD81D660F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLINTYPE" id="0F87B98D-9161-35F7-BED6-AF4EAD5CEAF0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the type of fillin being stored(ie. string, date, integer).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>69E4F274-ED29-0433-E1D8-9FC0621240B6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A744D686-90ED-8DBD-A819-0E171E960C14</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLINNAME" id="4E328CC6-51A7-840E-EFD3-78D115AF329D">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the name of the fillin from VBMS-C.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>D3EC2963-A8B2-EDF2-E18B-DAAB92EECAED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF50A63B-4252-AECA-D201-89001F2C21BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLINVALUE" id="0B9ACECB-4F19-7A06-38E9-E69E58016752">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the value of the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DE280068-8F91-AA47-0E16-5CD42BF3631F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>725A1D43-DD33-569C-D5CF-835F080CFE7A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="D1CE79F9-A1A2-1A6B-1ABC-542DAD30D8DB">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the fillin record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>8EB72478-F0A6-8013-EC8E-0B1EEFB95D72</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="ABC17AFC-76CF-E07D-28DD-6510F9BAC501">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the fillin record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>B464B813-9363-EF10-8AAF-3D38C84449BE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="DDA61AAA-3C5D-2201-8168-2AB31A81CD21">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a fillin - null means our fillin is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>79B5122C-07FA-70D1-EF97-9493DA442801</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVPLANTASKACTIVITYACTION_ID" id="05BEC85C-1D4F-E248-B9E9-43716D709C61">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The ID of the development plan task activity action related to this development plan_task_activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>BD24B208-DCD0-80DA-5EBF-5689581AAAC1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>2C4C9D3E-7463-4CA5-A24D-F663EA32D435</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F5EE4FB-B8E0-B0E1-488D-BC051A081833" referredColumn="2C4C9D3E-7463-4CA5-A24D-F663EA32D435"/>
+</associations>
+</Column>
+<Column name="PARENT_FILLIN_ID" id="453610A9-98BC-58EC-7197-02BDD1956093">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the ID of the parent Fillin. We use this relationship for Fillins with multiple values.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>C4292020-C5B6-9F8E-51FB-4B3F83027E9E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>A30E6BBC-BDC7-BDD5-A257-E634AC809ADE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A15B2E-9445-00DD-38C5-B9EC6E269E38" referredColumn="A30E6BBC-BDC7-BDD5-A257-E634AC809ADE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BF6D73D-8231-436A-3BE3-869FC5B5D4E3" name="DPTACTFILLIN_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>1F4A4DC5-C3E0-AC99-52CD-76A67A886030</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A30E6BBC-BDC7-BDD5-A257-E634AC809ADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19346F69-EFEE-34E4-FC90-205DC0C236C2" name="DPTACTFILLIN_DVPLNTSKACACTN_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="05BEC85C-1D4F-E248-B9E9-43716D709C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C710B8C-BFEE-159D-4421-EED597EE74EF" name="DPTAF_P_FILLIN_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="453610A9-98BC-58EC-7197-02BDD1956093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

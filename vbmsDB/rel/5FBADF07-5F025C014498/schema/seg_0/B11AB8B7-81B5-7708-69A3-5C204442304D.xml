@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="VBMSUI" id="B11AB8B7-81B5-7708-69A3-5C204442304D" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>A30B8510-50A7-B2A5-B1AE-E6C90CD70659</importedID>
+</SchemaObject>

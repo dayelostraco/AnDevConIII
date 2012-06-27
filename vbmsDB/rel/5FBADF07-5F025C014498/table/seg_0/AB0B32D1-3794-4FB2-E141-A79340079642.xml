@@ -1,0 +1,263 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="AB0B32D1-3794-4FB2-E141-A79340079642" directorySegmentName="seg_0" name="DEVPLANTASK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This table contains the development plan_task information.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>22E16007-06D1-A5DF-1E88-06311A13AD02</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>DEVPLNTSK_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="671D324C-F973-6F75-D41B-06B5E88933E5">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The unique ID of the development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>00CEAE36-DD57-152E-BCB3-FDD6E307CB9A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAIM_ID" id="84679CBC-677B-865C-9194-42C8B970DFA1">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The ID of the claim related to this development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>B45EB26C-604F-2E87-50F2-5A2C35967C67</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASKTITLE" id="FACCA50C-6A32-0FE7-6F63-CABA1D7E33FB">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The title of this development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>BBBC994D-CD13-DF5D-0BCB-53BA20C77E1B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0567BCD0-87DE-AFB7-D489-32FC48EBF40D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSOLETEIND" id="DB3DDAAE-04E3-B7C3-FFFC-5558711BE256">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Indicates whether a task is obsolete.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>A98C5FE2-A08F-7A57-C0AA-2D54B41E15AC</importedID>
+<constraintName>DEVPLNTSK_OBSOLETEIND_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="OBSOLETEIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVTASK_ID" id="8FD940A8-7BEC-88BF-6E5E-CBFFDA2D3611">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The ID of the development task related to this development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>C4602A21-665B-2944-9FF7-DA067E01F017</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>221184FA-B820-994E-03C2-3CFC6E450A5A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7484316-0A17-FBA6-4269-EAA0661D4591" referredColumn="221184FA-B820-994E-03C2-3CFC6E450A5A"/>
+</associations>
+</Column>
+<Column name="DEVSTATUS_LU_ID" id="B7E4ECDD-595A-A403-3D46-2A388DDD88F9">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The ID of the development status related to this development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>EB115233-01BD-30A9-5A9E-155C878E6F86</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>7837AC28-DAE6-226C-7893-AD6C95EC8C87</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCD17CA7-9D1A-E86D-0D24-9C450FA1F83C" referredColumn="7837AC28-DAE6-226C-7893-AD6C95EC8C87"/>
+</associations>
+</Column>
+<Column name="CREATEDT" id="C13171C3-FBEF-3CE7-633F-83DAA423C711">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development plan_task record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>CDA08251-5476-7278-28FC-F7D8F2028F71</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="15ECF7EC-AB24-18D2-3C1A-483EC64F6D60">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development plan_task record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>EEB46944-8241-3B2E-3491-B097FD8D60AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSERID" id="EDC831D5-0C0A-0E6A-9FF6-36FE31BE2025">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the vbms user that created or updated the development plan_task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>87627FB6-2341-C27B-3486-A4DEDACC6658</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="F3AEAB29-C2A4-E8F5-BAA2-1620F626FC07">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a development plan_task - null means our development plan_task is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>95DE636F-FC84-1F60-2DC0-E83F1CA340A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_ID" id="AD5F402F-E1E3-EA56-C56D-1DD90961748E">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Foreign key to letter</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>C2194B2A-FDFD-D2C7-37A6-622801303332</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>CDD08F05-0EFD-4B49-A009-A20808E82C42</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D10D711E-27CA-8239-7E40-646F60A7FD74" referredColumn="CDD08F05-0EFD-4B49-A009-A20808E82C42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="494382EA-B0BB-FB66-8F79-DFE090782FC3" name="DEVPLNTSK_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>C70B1F07-CE4C-6BEB-0F1F-E1D27B55AF5E</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="671D324C-F973-6F75-D41B-06B5E88933E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E018D4-1474-55E5-9A91-E03F25794936" name="DVPLNTSK_CLAIM_ID">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>ACB014F1-43F6-76D4-9D37-CF1A8EFC9F7D</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="84679CBC-677B-865C-9194-42C8B970DFA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4937392-522A-ECD7-EEFF-B363B04AB8CE" name="DEVPLANTASK_LETTER_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="AD5F402F-E1E3-EA56-C56D-1DD90961748E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A910BB-6C19-3B23-0D63-7B83433A7A56" name="DEVPLNTSK_DEVLUST_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="B7E4ECDD-595A-A403-3D46-2A388DDD88F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CE5349D-CBE2-3F6D-9CEF-1CDF64951A74" name="DEVPLNTSK_DEVTSK_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="8FD940A8-7BEC-88BF-6E5E-CBFFDA2D3611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

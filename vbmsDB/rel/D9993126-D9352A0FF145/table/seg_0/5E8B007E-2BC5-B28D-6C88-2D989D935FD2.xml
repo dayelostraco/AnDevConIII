@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" directorySegmentName="seg_0" name="FILLINVALUE">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>This table contains the fillin values information related to a development plan.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pkName>DPTACTFILLIN_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA195F5D-9801-854B-FA6A-CF51BCA71DAC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 03:01:53 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPMENTPLANACTION_ID" id="93AEB4BB-A364-54A4-D524-468C6F7EC7DF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>The ID of the development plan task activity action related to this development plan_task_activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>8BC2E0F3-8600-576F-A024-5EB4520C76B8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CAAF484-ACEF-F1C6-E6CE-583090AF1817" referredColumn="8BC2E0F3-8600-576F-A024-5EB4520C76B8"/>
+</associations>
+</Column>
+<Column name="FILLIN_ID" id="7504476B-409C-ACF7-D34B-D57052A0CFC6">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:56:37 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>25586E9F-F05C-C302-C2AF-1748A7C9850A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30ECFF0B-6965-C10D-C5F4-3ED7B1259803" referredColumn="25586E9F-F05C-C302-C2AF-1748A7C9850A"/>
+</associations>
+</Column>
+<Column name="VBMSUSER_ID" id="169E871E-94F5-6537-3259-92513825E2F7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>The VBMSUSER_ID field is a foreign key field which references the ID field of the VBMSUSER table.  This is the user who created the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLINVALUE" id="49222291-6317-44B0-06EC-7A94DC9A8540">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>This is the value of the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="6533EAB7-A180-8485-EDC3-83076F44021A">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the fillin record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="3E15878E-B7CC-EB7C-5D0B-547FC4F9EB27">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the fillin record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="1A2F1617-AA34-8168-49C6-F5D4FF3DD5A6">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:54:12 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a fillin - null means our fillin is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D01B6169-5CAF-5377-1BAE-26A605D49B8A" name="FILLINVALUE_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 03:02:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BA195F5D-9801-854B-FA6A-CF51BCA71DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DB41B6A-D2BC-31A5-BC4F-A82F639770D2" name="FILLINVALUE_DEVELOPMENTPLANACTION_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:55:37 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="93AEB4BB-A364-54A4-D524-468C6F7EC7DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D7F84F8-852F-99B0-C943-7DEECC1BB0BC" name="FILLINVALUE_FILLIN_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:56:57 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7504476B-409C-ACF7-D34B-D57052A0CFC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

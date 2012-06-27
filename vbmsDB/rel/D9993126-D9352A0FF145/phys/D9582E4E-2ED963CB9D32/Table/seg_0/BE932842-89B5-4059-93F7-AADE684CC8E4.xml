@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="DEVELOPMENTPLAN" id="BE932842-89B5-4059-93F7-AADE684CC8E4" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CLAIM_ID" id="2B5D5EAE-0FCF-5FEC-D097-5D08FF90FE6D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="3E5A4ED8-19A5-69E4-2223-BB810AE82CDF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVELOPMENTPLAN_PK" id="5DAAB7E7-D817-E54D-058D-9901283FE765">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

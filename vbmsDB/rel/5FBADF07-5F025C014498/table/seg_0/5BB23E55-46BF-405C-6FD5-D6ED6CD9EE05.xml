@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5BB23E55-46BF-405C-6FD5-D6ED6CD9EE05" directorySegmentName="seg_0" name="DEVTASK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This table contains the development task information related to a development plan.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>FF535920-6229-A2B9-47FF-6D7D33F81B65</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>DEVTASK_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="221184FA-B820-994E-03C2-3CFC6E450A5A">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The unique ID of the development task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>38CDEB25-1AD3-5CE4-CDB5-E00C223ACF95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="5CDB861A-7B4E-5EB2-1274-D9B6E961D884">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development task record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>D385E7C1-6AD5-F36F-C729-5C5714E6A038</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="2DD61ACC-3BA4-FCDC-8797-5BC953BB79CC">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the development task record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>F1D3D201-1F30-D47F-540F-056BD1F5E17F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="30406304-D017-8FF4-82F9-99C4F82D8E68">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Name of the task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>2BC6D094-46A4-7542-CBA3-FB57FC045A3C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0567BCD0-87DE-AFB7-D489-32FC48EBF40D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="7A483982-CE5B-A036-D4AE-ED7D998BE5F1">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a development task - null means our development task is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>6F6C18A8-1F03-FAA4-1B57-65EE4D889335</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SORTORDER" id="8F7D2797-32D5-5FEA-5E8F-9A724FD0B7A0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>2482BE31-0AC6-6F12-4CA5-FF9612FCDE48</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C704ABC6-EE66-019F-6387-A52DC9144E48</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUIREDIND" id="2327673E-E1DB-19D8-6BAF-922B715B917B">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Indicates whether a task is required</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>FBD251E9-81D2-1696-825B-A26C7FC22FD9</importedID>
+<constraintName>DEVTSK_REQUIREDIND_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="REQUIREDIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASKCODE" id="B18F4D78-8E64-BE70-2B3E-6D116C73302C">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>A 5 character code to represent the task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>F196EEB0-1307-E35A-0895-2C66439932AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26B78CCA-301C-D81A-1905-315DBC5CEE11</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIQUEIND" id="A4AE6385-D2BB-1977-8C64-6C4958087B4C">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Indicates whether a task is unique(ie. one task per plan)</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>D37B7CE2-0734-F6AC-C116-1BC529648A9B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRESPONDENCEIND" id="F270CF56-96F0-95F9-21CA-807A37436A0A">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the correspondence ind flag column. Default is set to 0 (false).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>0B4A4420-970A-DA58-A6D1-AF839D8890F4</importedID>
+<constraintName>DEVTSK_CORRESPONDENCEIND_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="CORRESPONDENCEIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFD90EDD-84F0-FFD1-21AC-489378AA8162" name="DEVTASK_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>EF0A136E-F699-2CA8-4BBB-E1CE41A631FC</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="221184FA-B820-994E-03C2-3CFC6E450A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D59DD988-AF47-B795-EDFE-252353FA9346" name="DEVTSK_NAME_UC">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>8C29C2B3-3F17-5A02-3D6A-E09405F55BDC</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="30406304-D017-8FF4-82F9-99C4F82D8E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A39847E-4885-5BFE-009A-4809BDBF4D27" name="DEVTSK_TASKCODE_UC">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>E5FEF6BB-7024-0C20-C852-193026C72EBA</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B18F4D78-8E64-BE70-2B3E-6D116C73302C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

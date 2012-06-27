@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="E905E49B-4FEF-4E33-A496-964BFBBA1320" directorySegmentName="seg_0" name="STD_DVLPMT_CATEGORY">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the STD_DVLPMT_CATEGORY table which contains categories for claims development.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>9C9267B1-118D-4175-6902-2E2D4A405FD5</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>STD_DVLPMT_CATEGORY_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="56AAE8BE-51E8-2F33-FA40-A7477F76AD5B">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the identifier of the STD_DVLPMT_CATEGORY.  This field is a numeric field and is used solely as a primary key.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>4F88CA43-5699-4EBF-474C-CE61425BB1DC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CA88F711-F35B-F43A-96DE-F9F3DB4BAD32</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="B2DDE3D2-06A7-F88C-E8DA-93481F3B48BF">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The CATEGORY field is text field containing the development action category type code</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DA10F881-E37A-75DC-D477-D026D6B4FD2D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53D6B5FE-530E-DBB6-E046-E47AB7792F67</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="4FE30F83-73BB-9613-73EB-DFBCA7228265">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The DESCRIPTION field is text field containing the description of development action category</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>AEC4DBF8-E9BD-85D2-0F3A-DA9005B08736</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF50A63B-4252-AECA-D201-89001F2C21BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PGM_TYPE_CD" id="7EECD415-0A32-332C-CA7F-F8F6B4EF0177">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The PGM_TYPE_CD field is text field containing a finite, pre-determined value or status that applies to a type of a PROGRAM</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>0F5F0968-E49C-44AB-3476-DBB7DD6C6A26</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_TYPE" id="1776E891-0512-5432-AF5B-903A3D9A8E95">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The LETTER_TYPE field is text field containing the type of claim development letter</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>176E3895-AC9C-A9B9-DB08-8DF2B5849E73</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BCD0CCE-A345-B096-D332-F33342C9BB92" name="STD_DVLPMT_CATEGORY_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>2BA811E1-5C5C-410F-25B0-712128F8376E</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="56AAE8BE-51E8-2F33-FA40-A7477F76AD5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

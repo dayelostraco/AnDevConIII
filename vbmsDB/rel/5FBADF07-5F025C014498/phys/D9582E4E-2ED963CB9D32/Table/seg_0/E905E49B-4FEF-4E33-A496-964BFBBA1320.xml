@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="STD_DVLPMT_CATEGORY" id="E905E49B-4FEF-4E33-A496-964BFBBA1320" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LETTER_TYPE" id="1776E891-0512-5432-AF5B-903A3D9A8E95">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DESCRIPTION" id="4FE30F83-73BB-9613-73EB-DFBCA7228265">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="56AAE8BE-51E8-2F33-FA40-A7477F76AD5B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="PGM_TYPE_CD" id="7EECD415-0A32-332C-CA7F-F8F6B4EF0177">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CATEGORY" id="B2DDE3D2-06A7-F88C-E8DA-93481F3B48BF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STD_DVLPMT_CATEGORY_PK" id="9BCD0CCE-A345-B096-D332-F33342C9BB92">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

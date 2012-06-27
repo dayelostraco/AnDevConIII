@@ -1,0 +1,274 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="6EA794F7-B5CC-88AF-A8FB-63B8C9A1F1CB" directorySegmentName="seg_0" name="LETTER_ELEMENT">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>24FE09FC-B826-070B-D5BB-8D0EA4EEBE11</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>LETTER_ELEMENT_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8559B445-2233-AA17-025B-56344662854F">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the primary key.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>BE8A2B81-231C-DF94-74A7-757CA8DAF715</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_ID" id="1CD2200D-C782-4E6F-7B59-209CD0968C74">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is a fk to LETTER.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>D64F085F-4DFA-9F5C-17DA-2A8D4BBB5F45</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>CDD08F05-0EFD-4B49-A009-A20808E82C42</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B665F1-A599-69D1-A2E9-558D08BE7797" referredColumn="CDD08F05-0EFD-4B49-A009-A20808E82C42"/>
+</associations>
+</Column>
+<Column name="LETTER_ASSOC_ID" id="2B6A1D7D-E204-701F-044C-83B87257930B">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is A fk to LETTER_ASSOC.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>76F96796-D8D9-B141-3BC9-F99B3079A921</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>25504E81-C057-1115-B054-AD2A5B958952</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8506BF35-757F-0DD8-EC57-5A143F75D557" referredColumn="25504E81-C057-1115-B054-AD2A5B958952"/>
+</associations>
+</Column>
+<Column name="CONTENT_TYPE" id="330374DE-E0BA-EDF2-9300-6FB003B40955">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This describes the content type for the record, such as FREE_FORM_TEXT or SIMPLE_FILL_IN.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DA7EDF62-923F-7332-7043-AD9E51B1972C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF50A63B-4252-AECA-D201-89001F2C21BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELEMENT_TYPE" id="8987DC6E-9DFA-2751-EE65-6479BEA64A3B">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is The element type for the record, such as the section type, or a question type.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>AC98C802-9D0F-87CB-5A91-1AE06C7A7BC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF50A63B-4252-AECA-D201-89001F2C21BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALUE" id="3029E59B-C23A-E316-0932-1973A8F73C0B">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is a field to store the users answer that is being persisted.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>B8AB6832-E349-69F7-11B1-6BD685CB9B8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DFA3D338-F11B-76DA-85B6-01934F556D6C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXT" id="3044F404-F163-766E-BE39-27C39518E65E">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is a clob field to store the users answer that is being persisted, such as for free form text.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>4EB8202D-6BAF-9541-352B-F07A67D282E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>15E427FA-AF7D-0343-5FEB-9C60C6FF59C4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSERID" id="B28D72DA-538B-2DBC-73DB-71D2DFD880E5">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>6B64975B-31EE-7C86-6BA9-139D72020772</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="EAC373E0-463B-899D-1365-BE88F68042D1">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>21F441F5-83D4-9491-4101-BA5A8FD8B6D9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="6BC073C7-FB85-920C-ED6C-5D71B8D430DD">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>642B36AC-9BB8-1001-0AF4-307DC2DFC06E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELEMENT_NAME" id="DBB438CF-9A23-1871-60E7-3B8BD543A3CB">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the element name.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>50D15067-5340-763F-650B-9C68EF807A0F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF50A63B-4252-AECA-D201-89001F2C21BE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="C692238C-EA81-9BFB-F5E2-E214E1030203">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>1FF2FF61-F4D9-0C85-0A8F-C7D312FA0879</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B31FE65-1353-F46B-F76F-06F351759261" name="LETTER_ELEMENT_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>BAB0E158-60A9-51AB-58E1-2453EFFA9C8C</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8559B445-2233-AA17-025B-56344662854F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09CBA417-F3B6-3202-4395-CFCAB8E8310A" name="LETTER_ELEMENT_L_IDX">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>9050428E-2A4E-B5CF-7C78-176EA3144636</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="1CD2200D-C782-4E6F-7B59-209CD0968C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0777D86D-A732-6198-7284-85B7AD97845E" name="LETTER_ELEM_LA_IDX">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>DF56A9EE-6721-AC77-B709-9E03447FAEB9</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="2B6A1D7D-E204-701F-044C-83B87257930B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="039385E8-52CE-6883-9CEA-C7A7757D08F7" name="LETTER_ELEMENT_VU_IDX">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>09080214-A3F2-3B00-5D8F-DB0AB74D374B</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="B28D72DA-538B-2DBC-73DB-71D2DFD880E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECEE3CD7-74AC-C928-0B46-622CC80B7565" name="LETTER_ELEMENT_LCA_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="2B6A1D7D-E204-701F-044C-83B87257930B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8CF8E76-6219-2A26-FDA4-2ACA9B6F0F53" name="LETTER_ELEMENT_LC_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="1CD2200D-C782-4E6F-7B59-209CD0968C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="DEVELOPMENTPLANACTIVITY" id="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D88E4217-5BE1-0A43-BD77-EA8DACBD82F6</segment>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVELOPMENTACTIVITY_ID" id="3AD65009-6896-FA7F-18FB-FF0B4EE18D57">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVELOPMENTPLANTASK_ID" id="3E417697-EBB7-7E8A-2028-A6DE5AAB01E7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CREATEDT" id="91F0A997-4F2A-0EA9-331A-3D6C3EF8A3CA">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="EXPIRATIONDT" id="DAC58173-41E1-C09D-A617-03E4E31C0AF0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="VBMSUSERID" id="EB128675-35A8-D1FF-76B7-6CC481D9FB49">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LASTUPDATEDT" id="ECFA67D3-8AFC-7B77-A383-1D5FCB7C9F55">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVELOPMENTPLANACTIVITY_DEVELOPMENTACTIVITY_FK" id="2CDD1C3C-1A1F-A72A-AC05-62C32EFC18EF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:33:51 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVELOPMENTPLANACTIVITY_DEVELOPMENTPLANTASK_FK" id="B2A82098-27B3-4331-6143-8418ECFC850E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:33:13 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVELOPMENTPLANACTIVITY_PK" id="2E181F51-3932-89EF-18CA-4F0C4CC9BD7A">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<indexSegment>E3EAD006-532F-DECC-B426-744F4891992C</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A2DF7750-CA94-E032-3243-0E87FCAB5E62" directorySegmentName="seg_0" name="DEVACTIVITY">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This table contains the development activity information.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>DEVACT_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8CEBB2B2-1A50-1E26-C44B-68A7D9C32F7F">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>The unique ID of the development activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="4127B6ED-E2BE-EDD9-342C-97303B4A1A13">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>The name of the development activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SORTORDER" id="3BD9DAE3-1456-44AD-89CF-611316F08DF4">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVIDENCEIND" id="98E24ED0-C52B-5835-4E4A-1465B8053037">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This is the evidenceInd flag column. Default is set to 0 (false).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<constraintName>DEVACT_EVIDENCEIND_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="EVIDENCEIND IN(0, 1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="CA479C5D-C9AC-706C-EE4A-B0D7AFDBD483">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="E9DC54B2-4D36-0ECF-87C9-79F75E9E7081">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVTASK_ID" id="48F46C6B-3018-9409-F358-161CEBE01726">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>The ID of the development task related to this development activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>221184FA-B820-994E-03C2-3CFC6E450A5A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76D83650-C100-205D-A5D2-D456096443D9" referredColumn="221184FA-B820-994E-03C2-3CFC6E450A5A"/>
+</associations>
+</Column>
+<Column name="EXPIRATIONDT" id="DBB46ECC-4097-4424-F6A9-C88A03A72040">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a development activity - null means our development activity is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E82ADD84-EDB5-03B0-824E-9A5B7665185E" name="DEVACT_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8CEBB2B2-1A50-1E26-C44B-68A7D9C32F7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A0AEDC-C4D9-6677-ED95-0D83F967F70E" name="DEVACT_DEVTSK_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="48F46C6B-3018-9409-F358-161CEBE01726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

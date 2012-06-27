@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" id="3A3EA6C5-7890-F9C6-1298-686C569E937A" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 18:19:31 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<engineerTo>
+<item key="5FBADF07-A54B-F85B-A18B-5F025C014498" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C39B8F8-B872-DF14-8AE1-195C097C48FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3928709-61B5-B5AC-4463-F9111D39A757</targetEntity>
+<transferable>true</transferable>
+</Relation>

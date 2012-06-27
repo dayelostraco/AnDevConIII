@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="VBMS R4 Model" id="D9993126-78C2-29FE-1C4A-D9352A0FF145" mainViewID="1B39CF92-37B7-7250-413F-93054B84DCC9">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 23:02:03 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+</relationalModel>

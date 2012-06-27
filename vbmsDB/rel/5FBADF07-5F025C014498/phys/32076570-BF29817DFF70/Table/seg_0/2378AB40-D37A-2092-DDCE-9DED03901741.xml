@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STD_OUTPUT_ARGMT" id="2378AB40-D37A-2092-DDCE-9DED03901741" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DEFAULT_TXT" id="06986008-930A-CCDD-4D0D-450C50933904">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FILLIN_TYPE" id="2F41D683-2DDA-24A3-DECB-E7A651D0C318">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="STD_OUTPUT_ARGMT_ID" id="5DC3E51F-AAC8-D24F-8CEF-CD7455B73B09">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OUTPUT_ARGMT_TYPE_CD" id="73072718-AE15-651D-FE66-15053FC34A76">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="KEYWRD_TXT" id="9680E99A-4780-9034-647B-CAE5E902D4BE">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="USER_PROMPT" id="E25AE79A-FAFA-3DA3-BEF2-E48A69586D2D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STD_OUTPUT_ARGMT_PK" id="C6E86245-F545-AB16-97FC-0ED60FBD595D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

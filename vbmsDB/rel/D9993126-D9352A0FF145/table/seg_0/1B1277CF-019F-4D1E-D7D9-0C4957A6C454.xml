@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="1B1277CF-019F-4D1E-D7D9-0C4957A6C454" directorySegmentName="seg_0" name="CUSTOMPARAGRAPH">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:32:08 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E2D87173-6151-5267-B608-5C27E499AB6B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:35:46 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPMENTPLANACTION_ID" id="87CC81FC-C5BF-3F34-5F1A-8A8DB44AA42C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:35:46 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<delegate>8BC2E0F3-8600-576F-A024-5EB4520C76B8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D960D71-16D9-3553-0F7A-3383A7D33622" referredColumn="8BC2E0F3-8600-576F-A024-5EB4520C76B8"/>
+</associations>
+</Column>
+<Column name="PARAGRAPH_TEXT" id="C7376A9A-ACDC-842C-F0C1-327407D0603E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:38:35 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>15E427FA-AF7D-0343-5FEB-9C60C6FF59C4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0356757-8AE9-6E0F-43F5-AB48712F2A8F" name="CUSTOMPARAGRAPH_DEVELOPMENTPLANACTION_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:37:14 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="87CC81FC-C5BF-3F34-5F1A-8A8DB44AA42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

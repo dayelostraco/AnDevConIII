@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0F525CB7-4FB8-D665-48D9-B024715812EE" name="CUSTOMPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8462CADC-B04F-BFD7-6C48-B12048B8194E" name="DEVELOPMENTACTION (STD_DVLPMT_ACTION)" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DAAF18A8-5234-76D5-29A6-BF4B04604FD2" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE0BF7D3-D950-2CE4-6835-028766DFC9DC" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E3928709-61B5-B5AC-4463-F9111D39A757" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3B32D4AE-B5DB-4E15-171E-9A587CB80019" name="DEVELOPMENTTASK" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1F52CE4C-8E37-4B05-B6B2-0267AAE0EC39" name="DevelopmentPlan" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3C39B8F8-B872-DF14-8AE1-195C097C48FE" name="DevelopmentPlanTask" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E98DBFC6-052A-D44F-2313-5A751DE4450C" name="FILLIN (STD_OUTPUT_ARGMT)" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4E2F7815-6CDA-4FCE-1F59-F16347C50386" name="FILLINVALUE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1F04E878-A5D7-B5D8-A0BD-65212AA172DE" name="PARAGRAPHFILLIN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E0ED2829-0A1B-CEC5-3F8D-1A30FF082495" name="StandardParagraph" seqName="seg_0"/>
+   <object objectType="Relation" objectID="770A36B0-5035-8026-B285-C309983A836F" name="FILLINVALUESTOSTD_OUTPUT_ARGMT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3687D58A-1088-46F1-FB61-0D765EA3E099" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3A3D1664-E8C5-D89D-29F5-397DA60F73BC" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="00B901B8-E73E-F82E-726E-305063B1E5B8" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5EA1E806-5ECC-6AE6-D5EF-C4C8AE45612A" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="32CAD1C2-0691-3BA1-92BC-0B3BDF124E16" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3A3EA6C5-7890-F9C6-1298-686C569E937A" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DDDF1B43-D048-FEF1-59C4-129A515E27F7" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C74EA6C3-D886-06CF-77C2-DA67C82259E8" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5BC05FE1-38E5-D5F5-C27E-B691F1963B56" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3CDFAF0D-BD38-BE70-8311-E7C042358D8D" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="78A289BC-FF20-BC38-DE46-078196F10549" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

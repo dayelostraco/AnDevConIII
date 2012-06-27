@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BEFORE_INS_LETTER" id="8415DCD2-4EC5-EF7B-A71B-673A7A2B5299" directorySegmentName="seg_0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;                IF (:NEW.ID IS NULL) THEN&lt;br/&gt;                    SELECT LETTER_SEQ.NEXTVAL INTO :NEW.ID FROM DUAL;&lt;br/&gt;                END IF;&lt;br/&gt;                :NEW.CREATEDT := SYSDATE;&lt;br/&gt;            END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07</owner>
+<table>14E867E5-4902-1242-5215-A2A105051C9D</table>
+</TriggerOraclev10g>

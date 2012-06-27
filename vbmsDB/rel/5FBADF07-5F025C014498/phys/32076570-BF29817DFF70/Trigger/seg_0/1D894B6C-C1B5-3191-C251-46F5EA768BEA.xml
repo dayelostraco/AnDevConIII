@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="B_I_STD_DVLPMT_CATEGORY" id="1D894B6C-C1B5-3191-C251-46F5EA768BEA" directorySegmentName="seg_0">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN          &lt;br/&gt;			 SELECT STD_DVLPMT_CATEGORY_ID_SEQ.NEXTVAL INTO :NEW.ID FROM DUAL;     &lt;br/&gt;			END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.ID IS NULL</condition>
+<owner>ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07</owner>
+<table>E905E49B-4FEF-4E33-A496-964BFBBA1320</table>
+</TriggerOraclev10g>

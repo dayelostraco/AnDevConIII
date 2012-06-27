@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="VBMSUI" id="ED038069-88A7-57F3-D61B-D95898319C19" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<defTableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

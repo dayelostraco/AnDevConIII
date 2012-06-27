@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="188AF0AB-17A3-8263-2F42-0497575D0D89" directorySegmentName="seg_0" name="STANDARDPARAGRAPH">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<commentInRDBMS>STANDARD PARAGRAPH. This entity contains a standard block of text.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pkName>STD_PRGRPH_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="931E67FE-B695-E235-377C-4FAD1E012AF0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<commentInRDBMS>STANDARD PARAGRAPH IDENTIFIER. A unique, factless identifier of an instance of Standard Paragraph (STD_PRGRPH).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA32733F-F206-4472-EB92-D604F4F90059" name="STANDARDPARAGRAPH_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="931E67FE-B695-E235-377C-4FAD1E012AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

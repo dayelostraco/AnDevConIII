@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="DEVPLANTASKACTIVITY" id="1C22B9C2-9F45-B210-C31F-71B649F1AEA6" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVACTIVITY_ID" id="01C072F7-1115-42C3-00B2-F6AEDC5FFCB5">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CREATEDT" id="2856B1F6-23EC-4647-4275-496AE6FFD656">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LASTUPDATEDT" id="6799B1FF-524A-E1C5-73C1-5D20B8F0684D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="VBMSUSERID" id="6A116C0E-C9B9-7AC7-E0FD-B81A6FF0AE65">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="84F0950D-1933-CC59-AEAC-B466A986099D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVPLANTASK_ID" id="AAC839DA-B743-3A88-75E3-8237F6D53973">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="EXPIRATIONDT" id="E3C52303-46D2-67E2-621D-A93B04BDB1EB">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEVPTA_PLTSK_ACT_IX" id="CAB46C81-5489-8125-3CC1-5738B389549D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVPTA_DEVACT_FK" id="385CD2D1-3D0F-9846-0F7A-39A836F60663">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:49:58 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVPTA_DEVPLNTSK_FK" id="4A59E4BC-CA6B-4850-79BB-E125C5268C95">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVPTA_PK" id="081C55DB-326A-B4E8-8AB6-CDA44E69D87C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:59:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

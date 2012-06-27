@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2378AB40-D37A-2092-DDCE-9DED03901741" directorySegmentName="seg_0" name="STD_OUTPUT_ARGMT">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT. Defines substitution parameters within a paragraph that are used to insert user entered variables or programatically derived data (from the database) into the text of a paragraph.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>STD_OUTPUT_ARGMT_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STD_OUTPUT_ARGMT_ID" id="5DC3E51F-AAC8-D24F-8CEF-CD7455B73B09">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT IDENTIFIER. A factless, unique identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEFAULT_TXT" id="06986008-930A-CCDD-4D0D-450C50933904">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>DEFAULT TEXT. The default text value for the Output Argument to be prompted to user.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLIN_TYPE" id="2F41D683-2DDA-24A3-DECB-E7A651D0C318">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER TYPE CODE. A value which describes how the argument list will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEYWRD_TXT" id="9680E99A-4780-9034-647B-CAE5E902D4BE">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT KEYWORD TEXT. A unique alphanumeric value that matches a &quot;tagged&quot; keyword within a block of text used to identify an output argument.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OUTPUT_ARGMT_TYPE_CD" id="73072718-AE15-651D-FE66-15053FC34A76">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT TYPE CODE. An abbreviation representing the location (database) or person (user) as the source of the output argument.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_PROMPT" id="E25AE79A-FAFA-3DA3-BEF2-E48A69586D2D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER. This entity contains qualifiers for arguments for paragraphs. Qualifiers define and describe how the argument will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6E86245-F545-AB16-97FC-0ED60FBD595D" name="STD_OUTPUT_ARGMT_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:23:07 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5DC3E51F-AAC8-D24F-8CEF-CD7455B73B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

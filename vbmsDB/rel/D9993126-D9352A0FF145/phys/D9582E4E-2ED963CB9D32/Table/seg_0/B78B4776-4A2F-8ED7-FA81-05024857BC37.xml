@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="DEVELOPMENTPLANACTION" id="B78B4776-4A2F-8ED7-FA81-05024857BC37" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LASTUPDATEDT" id="53F52E89-D334-7166-1D19-C1E82C8F9F12">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="CREATEDT" id="639BBCD7-C908-DA45-A1A3-60B2AAA4E2B4">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="8BC2E0F3-8600-576F-A024-5EB4520C76B8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="SUSPENSE_DURATION" id="92990EE5-C38E-1B2C-004E-A52D01523AB7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LETTER_ID" id="9ED7F853-C208-C53C-49EC-ADD66D58C107">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVELOPMENTACTION_ID" id="AFCE0CC5-AA2A-A013-7232-B09E2520FE42">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="DEVELOPMENTPLANACTIVITY_ID" id="B7CEEDF4-6F6C-B91E-7568-99E14C5E6F15">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="EXPIRATIONDT" id="BC926466-2F86-7054-0564-5FC4AEDD17F3">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="VBMSUSER_ID" id="BD9B2AFE-08BD-319A-EEDF-1054B61AC92B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="OMITIND" id="C0D250E5-54CD-84A4-434E-A3BFA2833776">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="TRACKEDITEM_ID" id="E19E1F73-5DE9-5FFF-4F8D-4F96DE2843AD">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVELOPMENTPLANACTION_DEVELOPMENTACTION_FK" id="21D926DB-AA5A-160F-75BC-E393EC5D9195">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:16:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVELOPMENTPLANACTION_DEVELOPMENTPLANACTIVITY_FK" id="393F2990-ED38-017C-F221-5CE40E34AA64">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:35:33 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVELOPMENTPLANACTION_PK" id="6BDCC4C1-C4C7-66D8-4EB5-69687F547D88">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="BE932842-89B5-4059-93F7-AADE684CC8E4" directorySegmentName="seg_0" name="DEVELOPMENTPLAN">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 23:06:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pkName>DEVELOPMENTPLAN_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3E5A4ED8-19A5-69E4-2223-BB810AE82CDF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 23:07:46 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAIM_ID" id="2B5D5EAE-0FCF-5FEC-D097-5D08FF90FE6D">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 23:09:34 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DAAB7E7-D817-E54D-058D-9901283FE765" name="DEVELOPMENTPLAN_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 23:07:57 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3E5A4ED8-19A5-69E4-2223-BB810AE82CDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

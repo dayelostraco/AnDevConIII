@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>
+   <object objectType="TSpace" objectID="96300127-852B-0FAD-205E-939F65BD7BE1" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="ED038069-88A7-57F3-D61B-D95898319C19" name="VBMSUI" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="188AF0AB-17A3-8263-2F42-0497575D0D89" name="STANDARDPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Table" objectID="49340920-A9EA-668B-F100-AE4F05B80B8A" name="DEVELOPMENTPLANTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
+   <object objectType="Table" objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Table" objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" name="DEVELOPMENTTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" name="DEVELOPMENTPLAN" seqName="seg_0"/>
+   <object objectType="Table" objectID="C9C9AC8F-3781-8212-D9B8-2B186115DB1F" name="DEVELOPMENTACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB060F52-F106-4033-6DB3-BF8570B418D5" name="DEVELOPMENTACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" name="FILLIN" seqName="seg_0"/>
+   <object objectType="Segment" objectID="D88E4217-5BE1-0A43-BD77-EA8DACBD82F6" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E3EAD006-532F-DECC-B426-744F4891992C" name="Storage2" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5D946C12-89D1-6390-6D28-33F7C35E60CE" name="BEFORE_UPD_DEVPTA" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>
+   <object objectType="TSpace" objectID="443CE2D6-A63F-E960-841E-B70DE003D23E" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="34422A7D-9EFE-6934-459D-3922A924DB6E" name="VBMSUI" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="023A5C65-DC6A-134A-ED8C-BB7ECB707C0B" name="STD_DVLPMT_ACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="14E867E5-4902-1242-5215-A2A105051C9D" name="LETTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C22B9C2-9F45-B210-C31F-71B649F1AEA6" name="DEVPLANTASKACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="2378AB40-D37A-2092-DDCE-9DED03901741" name="STD_OUTPUT_ARGMT" seqName="seg_0"/>
+   <object objectType="Table" objectID="49357FF4-7DEB-2C74-DD55-3E6340BC8B03" name="LETTER_ASSOC" seqName="seg_0"/>
+   <object objectType="Table" objectID="5BB23E55-46BF-405C-6FD5-D6ED6CD9EE05" name="DEVTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C050DA6-41E9-C216-B92C-4FEFBFD04295" name="LETTER_SECTIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6EA794F7-B5CC-88AF-A8FB-63B8C9A1F1CB" name="LETTER_ELEMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="7C9F97FF-5A51-395E-0E31-46149E25B446" name="DEVSTATUS_LU" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B20FAEA-03A4-C8B0-79F6-EB9337B99F6A" name="DEVPLANTASKNOTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2DF7750-CA94-E032-3243-0E87FCAB5E62" name="DEVACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="A928273E-E618-53FB-FC4A-C896D4849E30" name="DEVPLANTASKACTFILLIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="AB0B32D1-3794-4FB2-E141-A79340079642" name="DEVPLANTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC83CD6B-8F2B-2673-6221-9060427D0821" name="DEVPLANTASKACTIVITYACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="E905E49B-4FEF-4E33-A496-964BFBBA1320" name="STD_DVLPMT_CATEGORY" seqName="seg_0"/>
+   <object objectType="Segment" objectID="548C1AFE-63EE-F539-EAB7-6803FCBFE2DB" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="7697A037-2556-6C53-4B2A-A0E45FC2FA1F" name="Storage2" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="D24839E9-2D05-794B-0F2B-872A0443F315" name="BEFORE_UPD_DEVACT" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

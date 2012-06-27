@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g" name="Oracle Database 10g" id="DB378148-BEDA-BCF4-03E2-0AB42B077CBF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:20 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<siteID>D9582E4E-79E2-319F-387A-2ED963CB9D32</siteID>
+<siteName>Oracle Database 10g</siteName>
+<siteType>8</siteType>
+</StorageDesignOraclev10g>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="49AE25E2-B733-BD6F-38F5-F16733FDBE64" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="ED2257FC-3199-0B20-E0C2-5CFDE1ED0E07" name="VBMSUI" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="023A5C65-DC6A-134A-ED8C-BB7ECB707C0B" name="STD_DVLPMT_ACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="14E867E5-4902-1242-5215-A2A105051C9D" name="LETTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C22B9C2-9F45-B210-C31F-71B649F1AEA6" name="DEVPLANTASKACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="2378AB40-D37A-2092-DDCE-9DED03901741" name="STD_OUTPUT_ARGMT" seqName="seg_0"/>
+   <object objectType="Table" objectID="49357FF4-7DEB-2C74-DD55-3E6340BC8B03" name="LETTER_ASSOC" seqName="seg_0"/>
+   <object objectType="Table" objectID="5BB23E55-46BF-405C-6FD5-D6ED6CD9EE05" name="DEVTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C050DA6-41E9-C216-B92C-4FEFBFD04295" name="LETTER_SECTIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6EA794F7-B5CC-88AF-A8FB-63B8C9A1F1CB" name="LETTER_ELEMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="7C9F97FF-5A51-395E-0E31-46149E25B446" name="DEVSTATUS_LU" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B20FAEA-03A4-C8B0-79F6-EB9337B99F6A" name="DEVPLANTASKNOTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2DF7750-CA94-E032-3243-0E87FCAB5E62" name="DEVACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="A928273E-E618-53FB-FC4A-C896D4849E30" name="DEVPLANTASKACTFILLIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="AB0B32D1-3794-4FB2-E141-A79340079642" name="DEVPLANTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC83CD6B-8F2B-2673-6221-9060427D0821" name="DEVPLANTASKACTIVITYACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="E905E49B-4FEF-4E33-A496-964BFBBA1320" name="STD_DVLPMT_CATEGORY" seqName="seg_0"/>
+   <object objectType="Segment" objectID="2FB3BB9F-BABE-EDF9-0A10-873FE71E6E75" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="1E963843-DFF4-D5A6-9D3D-7B61F3FBA448" name="Storage14" seqName="seg_0"/>
+   <object objectType="Segment" objectID="57EE4F59-50EE-AE30-392E-911CB2F4BD64" name="Storage41" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="12A2486B-B35B-DA03-7AD9-8FD4B7031DB0" name="BEFORE_INS_DEVPLANTASKNOTE" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="D0DD7010-2859-DF93-9A09-EFE53EADCCF7" name="BEFORE_INS_DEVPLNTASKACTFILLIN" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5786E50B-762E-B1D6-674C-6FE98CE9D3C1" name="BEFORE_INS_DVPLNTSKACTACT" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="8415DCD2-4EC5-EF7B-A71B-673A7A2B5299" name="BEFORE_INS_LETTER" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="7BA15002-4EED-1DAC-2508-0F8D1417C3B6" name="BEFORE_INS_LETTER_ASSOC" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="B86FD46C-1CEF-557C-DD5E-524BDE6E89D6" name="BEFORE_INS_LETTER_ELEM" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="41A3ADC9-E62F-892E-97F7-9ABE4ACF6837" name="BEFORE_UPD_DEVPLANTASKNOTE" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="4A30F854-9BAE-8B72-07FA-EB0A408A6965" name="BEFORE_UPD_DEVPLNTASKACTFILLIN" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="73F9F299-5841-E8A3-D703-DEC404216DEA" name="BEFORE_UPD_DEVPLTSK" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="276A2824-0365-CFAB-B1CF-21E29D5A33C6" name="BEFORE_UPD_DEVPTA" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="C701044C-A85C-356D-65D5-3E81A4D6D2B8" name="BEFORE_UPD_DEVSTATUS_LU" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="66C4C60D-6E04-AC86-8C59-CD6D0E084D9E" name="BEFORE_UPD_DEVTASK" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="D7079A9D-4932-30E7-00CA-4E3607881182" name="BEFORE_UPD_DVPLNTSKACTACT" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="0DDC5D48-6EBA-BC47-1D55-EB6B17421049" name="BEFORE_UPD_LETTER" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="50735257-77CC-11F8-8DB1-3E520C278B8A" name="BEFORE_UPD_LETTER_ASSOC" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="98051942-75BD-79F1-BEB1-3165DD6AD031" name="BEFORE_UPD_LETTER_CON_ELEM" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="580A4940-ACE1-4C59-7FB0-66CF5E5D6753" name="BEFORE_UPD_LETTER_SECTIONS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="1D894B6C-C1B5-3191-C251-46F5EA768BEA" name="B_I_STD_DVLPMT_CATEGORY" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

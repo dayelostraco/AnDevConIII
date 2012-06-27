@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D3D7EA68-D555-42B3-C885-C30BF97F8E8B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 17:59:25 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

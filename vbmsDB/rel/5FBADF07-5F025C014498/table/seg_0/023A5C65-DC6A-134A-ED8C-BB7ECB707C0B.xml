@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="023A5C65-DC6A-134A-ED8C-BB7ECB707C0B" directorySegmentName="seg_0" name="STD_DVLPMT_ACTION">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the STD_DVLPMT_ACTION table. These are actions used to &quot;develop&quot; a claim. They are included in various outgoing documents and are used to either disperse information to or gather information from a claimaint or a third party for a specific claim.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>013CE019-25D5-C900-B3A5-81E0C33DDEC0</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pkName>STD_DVLPMT_ACTION_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STD_DVLPMT_ACTION_ID" id="5930095E-AB0D-232A-CDC3-6BA7663CD78D">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>This is the identifier of the STD_DVLPMT_CATEGORY.  A unique, factless identifier of an instance of Standard Development Action (STD_DVLPMT_ACTION).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>51D23C00-507C-82CF-B986-EFE3C38306A5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9162D7BC-2ECE-ABE3-75C5-B64F457E235C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVLPMT_ACTION_CATEGY_TYPE_CD" id="CC998B03-CA8F-AEE4-2692-AF5DB99F64AF">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The DVLPMT_ACTION_CATEGY_TYPE_CD field is text field which identifies the different types of categories for standard development actions which dispense or gather information</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>B5F9EF41-1C73-E05A-327D-74B0E380E1EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FED_AGENCY_IND" id="E59A8F61-5B1C-0B13-6228-34AAD9F5C1C5">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>5018E65B-4BB4-AC84-5EE5-6219E44C8E95</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF34C1D5-24B6-848B-25B8-6B7F03594C74</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LCTN_ID" id="6A23C2E1-AF52-EB5B-31FD-E1C4CD71BF86">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The LCTN_ID of the station.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>D5265C34-97EB-3DAE-D231-8EE7D9197E05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9162D7BC-2ECE-ABE3-75C5-B64F457E235C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PGM_TYPE_CD" id="D9071BCE-9AD7-A73A-5F11-35D64A851390">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>The PGM_TYPE_CD field is text field containing a finite, pre-determined value or status that applies to a type of a PROGRAM</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>CBF225FA-6AD2-0BB5-237E-6DE615BC7DF0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIES_REQST_CD" id="5EE31EC9-DC3B-75C7-AA55-37B2E89BB884">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>STANDARD DEVELOPMENT ACTION PERSONNEL INFORMATION EXCHANGE SYSTEM REQUEST CODE. Relates to a specific request in the PIES system.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>E3797C4B-5714-14EF-ECFE-A21B9C38001E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTCPNT_ID" id="E70471CB-43DC-603E-84E5-8A340863863D">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Identifier of PTCPNT.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>17E0E21A-5277-70C0-18D5-0D7C655E84A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9162D7BC-2ECE-ABE3-75C5-B64F457E235C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STD_ACTION_DESCP_TXT" id="9FEB728F-54D2-3E3D-9076-C145AFCA33EA">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>STANDARD DEVELOPMENT ACTION DESCRIPTION TEXT. A short description of the development action.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>5555F280-C5E7-AA3A-3CB8-BA0E28BFA9FC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D666EC-F50B-1042-5300-D6E4E2B228E9</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STD_DVLPMT_ACTION_CD" id="79427E20-FFB1-198D-8017-3431F755EADE">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>STANDARD DEVELOPMENT ACTION CATEGORY TYPE CODE. Identifies the different types of categories for standard development actions which dispense or gather information.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>9468E1F8-DF63-EC39-FF60-8E53767EA627</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STD_PRGRPH_ID" id="5032DA98-F6FF-02A0-149F-3FA5049BDAE7">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Foreign Key to STD_PRGRPH. A unique, factless identifier of an instance of Standard Paragraph (STD_PRGRPH).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>38303C31-723F-0511-C345-D2BCFA1F8E12</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9162D7BC-2ECE-ABE3-75C5-B64F457E235C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUSPNS_DURATN_QTY" id="FFACD531-CF58-646B-AC02-4BC196B439C3">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>STANDARD DEVELOPMENT ACTION SUSPENSE DURATION QUANTITY. A numeric value representing the default or standard number of days that should be allowed to respond to a request, after which time the action/ request would be considered &quot;mature&quot; or &quot;past due&quot;.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>767250C5-5263-75B3-2061-E43DA662DCA7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE52E4CB-14CD-E199-24F8-B6AB1470C16D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSCSUPPORTEDIND" id="73ED8B3C-B014-8BDB-5134-74C330FE0CEE">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<commentInRDBMS>Indicates if the development action is supported by vbms-c. 0 is not supported by vbms-c</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>122B3451-57C7-6A67-5F08-09F790DB034F</importedID>
+<constraintName>STDDVLPMTACTION_VBMSCSUPIND_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="VBMSCSUPPORTEDIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B385579D-ABD8-FD1F-3ADD-197F4E95E424" name="STD_DVLPMT_ACTION_PK">
+<sourceDDLFile>DevActionAndLetterDDL.sql</sourceDDLFile>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-26 22:55:12 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<importedID>CE6C778E-A244-6B36-77C4-8A3B068B4DDD</importedID>
+<schemaObject>B11AB8B7-81B5-7708-69A3-5C204442304D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5930095E-AB0D-232A-CDC3-6BA7663CD78D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

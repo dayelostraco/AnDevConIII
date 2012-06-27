@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="B11AB8B7-81B5-7708-69A3-5C204442304D" name="VBMSUI" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2DF7750-CA94-E032-3243-0E87FCAB5E62" name="DEVACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="AB0B32D1-3794-4FB2-E141-A79340079642" name="DEVPLANTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="A928273E-E618-53FB-FC4A-C896D4849E30" name="DEVPLANTASKACTFILLIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C22B9C2-9F45-B210-C31F-71B649F1AEA6" name="DEVPLANTASKACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC83CD6B-8F2B-2673-6221-9060427D0821" name="DEVPLANTASKACTIVITYACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B20FAEA-03A4-C8B0-79F6-EB9337B99F6A" name="DEVPLANTASKNOTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="7C9F97FF-5A51-395E-0E31-46149E25B446" name="DEVSTATUS_LU" seqName="seg_0"/>
+   <object objectType="Table" objectID="5BB23E55-46BF-405C-6FD5-D6ED6CD9EE05" name="DEVTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="14E867E5-4902-1242-5215-A2A105051C9D" name="LETTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="49357FF4-7DEB-2C74-DD55-3E6340BC8B03" name="LETTER_ASSOC" seqName="seg_0"/>
+   <object objectType="Table" objectID="6EA794F7-B5CC-88AF-A8FB-63B8C9A1F1CB" name="LETTER_ELEMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C050DA6-41E9-C216-B92C-4FEFBFD04295" name="LETTER_SECTIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="023A5C65-DC6A-134A-ED8C-BB7ECB707C0B" name="STD_DVLPMT_ACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="E905E49B-4FEF-4E33-A496-964BFBBA1320" name="STD_DVLPMT_CATEGORY" seqName="seg_0"/>
+   <object objectType="Table" objectID="2378AB40-D37A-2092-DDCE-9DED03901741" name="STD_OUTPUT_ARGMT" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="76D83650-C100-205D-A5D2-D456096443D9" name="DEVACT_DEVTSK_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="58CFF18B-929D-12BC-9428-87247DBE6DD1" name="DEVPLANTASKNOTE_DTID_LU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D10D711E-27CA-8239-7E40-646F60A7FD74" name="DEVPLANTASK_LETTER_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DCD17CA7-9D1A-E86D-0D24-9C450FA1F83C" name="DEVPLNTSK_DEVLUST_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C7484316-0A17-FBA6-4269-EAA0661D4591" name="DEVPLNTSK_DEVTSK_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3AD793D8-7558-ABEA-6D15-7D778A5DF818" name="DEVPTA_DEVACT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="04852050-08D9-9318-BF74-2346EE35B943" name="DEVPTA_DEVPLNTSK_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0F5EE4FB-B8E0-B0E1-488D-BC051A081833" name="DPTACTFILLIN_DVPLNTSKACACTN_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F8A15B2E-9445-00DD-38C5-B9EC6E269E38" name="DPTAF_P_FILLIN_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="008CFEC5-B03C-2C96-DDB4-8043FA1C1DD3" name="DVPLNTSKACTACT_DPTACTIVITY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="17C3BB0A-A899-555D-C920-D131EBB53241" name="DVPLNTSKACTACT_LETTER_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F411BAFD-BFD9-59FA-2EF4-40C38953B21C" name="DVPLNTSKACTACT_STDDVPMTACTN_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ACA9C848-FC0E-7686-9AD8-E75035FB1A53" name="LETTER_ASSOC_L_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8506BF35-757F-0DD8-EC57-5A143F75D557" name="LETTER_ELEMENT_LCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="02B665F1-A599-69D1-A2E9-558D08BE7797" name="LETTER_ELEMENT_LC_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7E6FD6ED-AB8A-5A29-2832-AF59B9DF6982" name="LETTER_SECTIONS_LETTER_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

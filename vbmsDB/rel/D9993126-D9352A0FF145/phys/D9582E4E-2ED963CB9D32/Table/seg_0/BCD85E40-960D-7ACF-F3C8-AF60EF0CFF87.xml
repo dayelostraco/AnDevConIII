@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="PARAGRAPHFILLIN" id="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D88E4217-5BE1-0A43-BD77-EA8DACBD82F6</segment>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="STANDARDPARAGRAPH_ID" id="3F66D700-94EB-7767-3AD7-D5CD20B918FF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="FILLIN_ID" id="6FAF776E-B955-B98F-5786-965A33035085">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PARAGRAPHFILLIN_STANDARDPARAGRAPH_FK" id="70D524AE-7638-50F2-3F6D-93B3CB41D708">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:17:02 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PARAGRAPHFILLIN_FILLIN_FK" id="A21587D8-C628-DED1-B918-469EC07106B8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:17:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STD_PRGRPH_DETAIL_PK" id="A1AF7BC7-62D1-7E57-9361-812502038715">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>96300127-852B-0FAD-205E-939F65BD7BE1</tableSpace>
+<indexSegment>E3EAD006-532F-DECC-B426-744F4891992C</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>
