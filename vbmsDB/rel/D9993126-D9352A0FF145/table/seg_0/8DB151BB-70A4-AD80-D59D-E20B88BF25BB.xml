@@ -45,6 +45,7 @@
 <Column name="ID" id="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The unique ID for the development plan activity.</comment>
 <commentInRDBMS>The unique ID of the development plan_task_activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,6 +58,7 @@
 <Column name="DEVELOPMENTPLANTASK_ID" id="3E417697-EBB7-7E8A-2028-A6DE5AAB01E7">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The ID of the development plan task related to the development plan activity.</comment>
 <commentInRDBMS>The ID of the development plan_task related to this development plan_task_activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,6 +75,7 @@
 <Column name="DEVELOPMENTACTIVITY_ID" id="3AD65009-6896-FA7F-18FB-FF0B4EE18D57">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The ID from the development activity lookup table.</comment>
 <commentInRDBMS>The ID of the development activity related to this development plan_task_activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,6 +92,7 @@
 <Column name="VBMSUSERID" id="EB128675-35A8-D1FF-76B7-6CC481D9FB49">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The ID of the VBMS user that created or updated the development plan activity.</comment>
 <commentInRDBMS>This is the vbms user that created or updated the development plan_task_activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -101,6 +105,7 @@
 <Column name="CREATEDT" id="91F0A997-4F2A-0EA9-331A-3D6C3EF8A3CA">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The date and time the devlelopment plan activity record was created.</comment>
 <commentInRDBMS>This is the date and time that the record was created.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -108,12 +113,12 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LASTUPDATEDT" id="ECFA67D3-8AFC-7B77-A383-1D5FCB7C9F55">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>The date and time the development plan activity record was last updated.</comment>
 <commentInRDBMS>This is the date and time that the record was last updated.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -121,19 +126,18 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="EXPIRATIONDT" id="DAC58173-41E1-C09D-A617-03E4E31C0AF0">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
+<comment>Soft delete for a development plan activity. Null means the activity is active.</comment>
 <commentInRDBMS>This is the delete date for a development plan_task_activity - null means our development plan_task is active.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
