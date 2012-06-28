@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="SECTIONPARAGRAPH" id="B284BA64-280E-1BF4-CF7B-62A603D1A2BF" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:38:18 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="3150BD77-43BA-D086-201D-FCE35C5B439A">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:43:53 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="PARAGRAPH_ID" id="61CA437B-D459-1587-473A-CACC0DF6EC0C">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:43:44 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="PARAGRAPH_TYPE" id="6A5A1883-0B76-D247-EAD0-A80089BE9E5B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:44:27 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LETTERSECTION_ID" id="8C8C40BE-6441-A99D-9B7E-E4A69D80B40A">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:41:22 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SECTIONPARAGRAPH_LETTERSECTION_FK" id="12C6D4C2-7AB5-CF2F-F1B4-05F9C3283848">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 16:34:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SECTIONPARAGRAPH_PK" id="08985AD7-AF1C-1D5E-67C9-D07770E29469">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:44:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

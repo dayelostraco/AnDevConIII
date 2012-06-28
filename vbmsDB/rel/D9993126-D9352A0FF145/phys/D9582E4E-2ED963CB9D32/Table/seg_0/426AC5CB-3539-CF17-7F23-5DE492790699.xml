@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="LETTERSECTION" id="426AC5CB-3539-CF17-7F23-5DE492790699" directorySegmentName="seg_0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:23:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="SORTORDER" id="289605D8-0221-675A-4693-400934235FB8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:26:55 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="LETTER_ID" id="7D6F68B5-4AFD-C974-F8BE-786CF0C0C176">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:44 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ColumnProxyOraclev10g" name="ID" id="BDEBA43E-DF58-35F7-29B3-F994EBB83706">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:26:35 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LETTERSECTION_LETTER_FK" id="DC79FA79-1D81-2243-2239-60DBDA97AEFC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LETTERSECTION_PK" id="C0A3C38B-EFD1-31A6-7FD5-C56DE81E78C6">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:15 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

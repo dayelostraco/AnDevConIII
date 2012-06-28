@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="426AC5CB-3539-CF17-7F23-5DE492790699" directorySegmentName="seg_0" name="LETTERSECTION">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:23:45 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>LETTERSECTION_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BDEBA43E-DF58-35F7-29B3-F994EBB83706">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:26:35 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LETTER_ID" id="7D6F68B5-4AFD-C974-F8BE-786CF0C0C176">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:44 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>BA75B7FF-D478-096C-D003-78E797F99C7F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89036F3-641F-042D-5172-17AAA5D359E1" referredColumn="BA75B7FF-D478-096C-D003-78E797F99C7F"/>
+</associations>
+</Column>
+<Column name="SORTORDER" id="289605D8-0221-675A-4693-400934235FB8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:26:55 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C704ABC6-EE66-019F-6387-A52DC9144E48</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0A3C38B-EFD1-31A6-7FD5-C56DE81E78C6" name="LETTERSECTION_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:15 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BDEBA43E-DF58-35F7-29B3-F994EBB83706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC79FA79-1D81-2243-2239-60DBDA97AEFC" name="LETTERSECTION_LETTER_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:24:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7D6F68B5-4AFD-C974-F8BE-786CF0C0C176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

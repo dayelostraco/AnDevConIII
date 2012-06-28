@@ -8,11 +8,13 @@
    <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
    <object objectType="Table" objectID="188AF0AB-17A3-8263-2F42-0497575D0D89" name="STANDARDPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="1B1277CF-019F-4D1E-D7D9-0C4957A6C454" name="CUSTOMPARAGRAPH" seqName="seg_0"/>
+   <object objectType="Table" objectID="426AC5CB-3539-CF17-7F23-5DE492790699" name="LETTERSECTION" seqName="seg_0"/>
    <object objectType="Table" objectID="49340920-A9EA-668B-F100-AE4F05B80B8A" name="DEVELOPMENTPLANTASK" seqName="seg_0"/>
    <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
    <object objectType="Table" objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
    <object objectType="Table" objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" name="DEVELOPMENTTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="B284BA64-280E-1BF4-CF7B-62A603D1A2BF" name="SECTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
    <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" name="DEVELOPMENTPLAN" seqName="seg_0"/>

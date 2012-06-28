@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="588C8804-3534-07B7-B837-542BE990E8EE" directorySegmentName="seg_0" name="LETTER_DEVELOPMENTPLANTASK_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:18:08 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<containerWithKeyObject>C0B4E4DE-2F01-4819-5EAB-AE794717B3C1</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>6B63730F-04A1-D64B-590C-A6EF55AE7E1B</localFKIndex>
+<keyObject>B88A7B5A-EC64-EC80-539B-A30678139815</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

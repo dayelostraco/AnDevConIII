@@ -50,6 +50,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CLAIM_ID" id="38472338-D339-155C-75FD-798E3AD2BDB9">
@@ -74,6 +75,22 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40 BYTE</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPMENTPLANTASK_ID" id="D77E1AE3-DA6F-7676-BC46-B1F48AE3AD16">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:16:50 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>D39A3525-5BC7-9DF8-E805-90B281DD8443</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="588C8804-3534-07B7-B837-542BE990E8EE" referredColumn="D39A3525-5BC7-9DF8-E805-90B281DD8443"/>
+</associations>
 </Column>
 <Column name="LETTER_TYPE" id="9991A0C4-DF3B-E17D-7104-141F0F31B754">
 <createdBy>grantlewis</createdBy>
@@ -276,6 +293,15 @@
 <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <indexColumnUsage>
 <colUsage columnID="E1BB39E2-0EE3-1E92-41F2-45EF1D8499C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B63730F-04A1-D64B-590C-A6EF55AE7E1B" name="LETTER_DEVELOPMENTPLANTASK_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:18:08 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="D77E1AE3-DA6F-7676-BC46-B1F48AE3AD16"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
