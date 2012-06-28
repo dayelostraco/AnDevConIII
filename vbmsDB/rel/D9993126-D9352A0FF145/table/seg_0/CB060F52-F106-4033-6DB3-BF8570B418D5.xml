@@ -104,7 +104,7 @@
 <comment>The evidence indicator flag. Default is set to 0 (false).</comment>
 <commentInRDBMS>This is the evidenceInd flag column. Default is set to 0 (false).</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVACTIVITYv1_EVIDENCEIND</constraintName>
+<constraintName>CK_DA_EVIDENCEIND</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
 <use>1</use>

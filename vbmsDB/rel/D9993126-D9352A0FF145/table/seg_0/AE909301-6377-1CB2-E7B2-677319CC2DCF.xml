@@ -127,7 +127,7 @@
 <comment>Boolean indicating whether or not the task is required.</comment>
 <commentInRDBMS>Indicates whether a task is required</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVTASKv1_REQUIREDIND</constraintName>
+<constraintName>CK_DT_REQUIREDIND</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
 <use>1</use>
@@ -158,7 +158,7 @@
 <comment>Indicates whether you can have more than 1 of this task on a development plan.&lt;br/&gt;&lt;br/&gt;</comment>
 <commentInRDBMS>Indicates whether a task is unique(ie. one task per plan)</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVTASKv1_UNIQUEIND</constraintName>
+<constraintName>CK_DT_UNIQUEIND</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
 <use>1</use>

@@ -125,12 +125,13 @@
 <createdTime>2012-06-27 00:43:36 UTC</createdTime>
 <commentInRDBMS>Indicates whether a task is obsolete.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVPLANTASKv1_OBSOLETEIND</constraintName>
+<constraintName>CK_DPT_OBSOLETEIND</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <listOfValues>
 <valueDef value="0" description=""/>
 <valueDef value="1" description=""/>

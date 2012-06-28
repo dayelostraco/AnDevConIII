@@ -194,7 +194,7 @@
 <comment>Flag indicating if devlelopment action is supported by VBMS-C.</comment>
 <commentInRDBMS>Indicates if the development action is supported by vbms-c. 0 is not supported by vbms-c</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_STD_DVLPMT_ACTIONv1_VBMSCSUPPORTEDIND</constraintName>
+<constraintName>CK_DA_VBMSCSUPPORTEDIND</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
 <use>1</use>

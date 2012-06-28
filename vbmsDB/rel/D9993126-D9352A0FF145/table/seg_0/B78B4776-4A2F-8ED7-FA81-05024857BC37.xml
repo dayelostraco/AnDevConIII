@@ -105,7 +105,7 @@
 <comment>Boolean indicator for whether or not the DEVELOPMENTPLANACTION record has been ommitted.</comment>
 <commentInRDBMS>An indicator to determine whether this action was omitted from the letter.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVPLANTASKACTIVITYACTIONv1_OMITIND</constraintName>
+<constraintName>CK_DPA_OMITIND</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <defaultValue>0</defaultValue>
