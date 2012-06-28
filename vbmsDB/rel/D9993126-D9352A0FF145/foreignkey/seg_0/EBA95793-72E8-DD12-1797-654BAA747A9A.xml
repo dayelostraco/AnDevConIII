@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="EBA95793-72E8-DD12-1797-654BAA747A9A" directorySegmentName="seg_0" name="DEVELOPMENTACTIVITY_DEVELOPMENTTASK_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="EBA95793-72E8-DD12-1797-654BAA747A9A" directorySegmentName="seg_0" name="DA_DEVELOPMENTTASK_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:41:33 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

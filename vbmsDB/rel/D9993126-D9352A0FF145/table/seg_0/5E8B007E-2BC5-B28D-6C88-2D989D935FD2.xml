@@ -159,7 +159,7 @@
 <colUsage columnID="BA195F5D-9801-854B-FA6A-CF51BCA71DAC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7DB41B6A-D2BC-31A5-BC4F-A82F639770D2" name="FILLINVALUE_DEVELOPMENTPLANACTION_FK">
+<ind_PK_UK id="7DB41B6A-D2BC-31A5-BC4F-A82F639770D2" name="FV_DEVELOPMENTPLANACTION_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:55:37 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -168,7 +168,7 @@
 <colUsage columnID="93AEB4BB-A364-54A4-D524-468C6F7EC7DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1D7F84F8-852F-99B0-C943-7DEECC1BB0BC" name="FILLINVALUE_FILLIN_FK">
+<ind_PK_UK id="1D7F84F8-852F-99B0-C943-7DEECC1BB0BC" name="FV_FILLIN_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:56:57 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

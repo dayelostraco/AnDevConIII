@@ -200,7 +200,7 @@
 <colUsage columnID="D39A3525-5BC7-9DF8-E805-90B281DD8443"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1CBB20AC-37CC-78BA-1D16-3D32552BC549" name="DEVELOPMENTPLANTASK_DEVELOPMENTTASK_FK">
+<ind_PK_UK id="1CBB20AC-37CC-78BA-1D16-3D32552BC549" name="DPT_DEVELOPMENTTASK_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:48:22 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -209,7 +209,7 @@
 <colUsage columnID="6B3C8E31-C9E1-A981-75C2-D41CB687A26A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8B9C2CD1-DC90-8055-7754-0C513AB1FE23" name="DEVELOPMENTPLANTASK_DEVELOPMENTPLAN_FK">
+<ind_PK_UK id="8B9C2CD1-DC90-8055-7754-0C513AB1FE23" name="DPT_DEVELOPMENTPLAN_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:48:48 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -218,7 +218,7 @@
 <colUsage columnID="C9744EF1-DAFE-6B34-D8E6-534F53907BD0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="307438FB-00DF-EFAF-5280-1ADBD707A470" name="DEVELOPMENTPLANTASK_DEVSTATUS_LU_FK">
+<ind_PK_UK id="307438FB-00DF-EFAF-5280-1ADBD707A470" name="DPT_DEVSTATUS_LU_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 18:13:28 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

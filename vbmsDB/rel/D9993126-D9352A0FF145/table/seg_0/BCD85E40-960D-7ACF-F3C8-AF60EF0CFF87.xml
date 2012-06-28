@@ -78,7 +78,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="70D524AE-7638-50F2-3F6D-93B3CB41D708" name="PARAGRAPHFILLIN_STANDARDPARAGRAPH_FK">
+<ind_PK_UK id="70D524AE-7638-50F2-3F6D-93B3CB41D708" name="PF_STANDARDPARAGRAPH_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:17:02 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -87,7 +87,7 @@
 <colUsage columnID="3F66D700-94EB-7767-3AD7-D5CD20B918FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A21587D8-C628-DED1-B918-469EC07106B8" name="PARAGRAPHFILLIN_FILLIN_FK">
+<ind_PK_UK id="A21587D8-C628-DED1-B918-469EC07106B8" name="PF_FILLIN_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:17:28 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

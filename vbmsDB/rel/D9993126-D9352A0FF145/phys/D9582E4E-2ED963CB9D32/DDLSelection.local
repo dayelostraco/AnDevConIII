@@ -3,28 +3,23 @@
    <object objectID="533DE26C-711B-F44E-7F48-0673C2775B42" markedGenerate="false"/>
    <object objectID="PUBLIC" markedGenerate="false"/>
    <object objectID="MDSYS" markedGenerate="false"/>
-   <object objectID="2852A56B-D2A7-1E84-5DC4-51EDC1927E54" markedGenerate="false"/>
-   <object objectID="05A31656-2CB5-B575-3192-062624548ACE" markedGenerate="false"/>
-   <object objectID="7B8FC936-1EC4-987E-20D2-6A52F664C8C7" markedGenerate="false"/>
-   <object objectID="EC72D11D-AC6E-2677-5A50-F5C26E411A14" markedGenerate="false"/>
-   <object objectID="6964198B-E524-50BF-016F-A717F569506A" markedGenerate="false"/>
-   <object objectID="5DAAB7E7-D817-E54D-058D-9901283FE765" markedGenerate="false"/>
-   <object objectID="6BDCC4C1-C4C7-66D8-4EB5-69687F547D88" markedGenerate="false"/>
-   <object objectID="21D926DB-AA5A-160F-75BC-E393EC5D9195" markedGenerate="false"/>
-   <object objectID="393F2990-ED38-017C-F221-5CE40E34AA64" markedGenerate="false"/>
-   <object objectID="2E181F51-3932-89EF-18CA-4F0C4CC9BD7A" markedGenerate="false"/>
-   <object objectID="B2A82098-27B3-4331-6143-8418ECFC850E" markedGenerate="false"/>
-   <object objectID="2CDD1C3C-1A1F-A72A-AC05-62C32EFC18EF" markedGenerate="false"/>
-   <object objectID="B88A7B5A-EC64-EC80-539B-A30678139815" markedGenerate="false"/>
-   <object objectID="1CBB20AC-37CC-78BA-1D16-3D32552BC549" markedGenerate="false"/>
-   <object objectID="8B9C2CD1-DC90-8055-7754-0C513AB1FE23" markedGenerate="false"/>
-   <object objectID="34D51B1F-E3E4-C76F-2FBB-1322CEFA3A53" markedGenerate="false"/>
-   <object objectID="871D2038-E026-7A62-04AE-42C74F70A296" markedGenerate="false"/>
-   <object objectID="953B316A-6A46-6A51-C52F-250232D8D1B5" markedGenerate="false"/>
-   <object objectID="B2C1CDEE-F8BA-ECF1-BE16-378F2734E15F" markedGenerate="false"/>
-   <object objectID="D01B6169-5CAF-5377-1BAE-26A605D49B8A" markedGenerate="false"/>
-   <object objectID="7DB41B6A-D2BC-31A5-BC4F-A82F639770D2" markedGenerate="false"/>
-   <object objectID="1D7F84F8-852F-99B0-C943-7DEECC1BB0BC" markedGenerate="false"/>
+   <object objectID="03BF93F7-7931-71EA-42B5-D93A350BAFCA" markedGenerate="false"/>
+   <object objectID="CDD704C7-9918-B946-65F5-87643C33480B" markedGenerate="false"/>
+   <object objectID="5029E9AD-6803-7404-1556-C151EFDE9931" markedGenerate="false"/>
+   <object objectID="5230112C-F342-EADB-27A0-AF55B9F822D3" markedGenerate="false"/>
+   <object objectID="3B5ABF70-05E0-7DC0-3D59-AA47C2BD01E4" markedGenerate="false"/>
+   <object objectID="E7BA0276-F792-7AA7-84A1-563F50C6C227" markedGenerate="false"/>
+   <object objectID="9146BC1D-AE23-F9BC-94A4-12A81A68B309" markedGenerate="false"/>
+   <object objectID="99FF255C-878D-FE66-674F-A34E375652D1" markedGenerate="false"/>
+   <object objectID="C5131931-37BE-D9FE-F9A7-BE245B38FF49" markedGenerate="false"/>
+   <object objectID="BD9534B0-4515-3CD3-74DC-21A6F44D025E" markedGenerate="false"/>
+   <object objectID="75E79E14-750C-A26E-0E80-C11CEE24947A" markedGenerate="false"/>
+   <object objectID="DD9D3CA3-2E7E-2D44-6C29-197232AB437E" markedGenerate="false"/>
+   <object objectID="3260DC00-78DA-36EB-728A-4138203F6BC5" markedGenerate="false"/>
+   <object objectID="110A378D-95CE-83E1-E578-FFEA69644347" markedGenerate="false"/>
+   <object objectID="F53D94F1-5150-471D-2DF7-3842C258DF3E" markedGenerate="false"/>
+   <object objectID="11723E72-58E2-0459-4145-D9B037EE1AA5" markedGenerate="false"/>
+   <object objectID="0446FDE2-B8AE-CFB5-3477-BF82C853EF62" markedGenerate="false"/>
    <object objectID="58CC3C82-562B-63EC-7CB2-C2B683DC80BF" markedGenerate="false"/>
    <object objectID="04C864DB-3823-1151-EA5D-842002AADE4B" markedGenerate="false"/>
    <object objectID="6C562F2E-4AEC-C2AC-B649-2F014B40F1AC" markedGenerate="false"/>
@@ -32,32 +27,8 @@
    <object objectID="6B63730F-04A1-D64B-590C-A6EF55AE7E1B" markedGenerate="false"/>
    <object objectID="1B8FAD37-A865-D826-E954-9E4A049BAA93" markedGenerate="false"/>
    <object objectID="5D87443B-1B82-53F5-31DA-F83397880746" markedGenerate="false"/>
-   <object objectID="2C27D7E6-BB79-A5CE-E300-C0F09CCDFE07" markedGenerate="false"/>
-   <object objectID="3E4FAEDD-2592-F7D9-AC1C-2947DE10C8F7" markedGenerate="false"/>
-   <object objectID="36233A5F-5FC4-2520-C61B-0FF5D90EAB16" markedGenerate="false"/>
-   <object objectID="AC3DF579-FFAA-5624-A6C3-CA2AACDF39B2" markedGenerate="false"/>
-   <object objectID="FD2781C4-0B7F-DD32-C7DA-09A42AC79F58" markedGenerate="false"/>
-   <object objectID="90248978-B53E-5401-D28B-113548ADEDA2" markedGenerate="false"/>
-   <object objectID="C0A3C38B-EFD1-31A6-7FD5-C56DE81E78C6" markedGenerate="false"/>
-   <object objectID="DC79FA79-1D81-2243-2239-60DBDA97AEFC" markedGenerate="false"/>
-   <object objectID="70D524AE-7638-50F2-3F6D-93B3CB41D708" markedGenerate="false"/>
-   <object objectID="A21587D8-C628-DED1-B918-469EC07106B8" markedGenerate="false"/>
-   <object objectID="CA32733F-F206-4472-EB92-D604F4F90059" markedGenerate="false"/>
-   <object objectID="C9C9AC8F-3781-8212-D9B8-2B186115DB1F" markedGenerate="false"/>
-   <object objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" markedGenerate="false"/>
-   <object objectID="CB060F52-F106-4033-6DB3-BF8570B418D5" markedGenerate="false"/>
-   <object objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" markedGenerate="false"/>
-   <object objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" markedGenerate="false"/>
-   <object objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" markedGenerate="false"/>
-   <object objectID="49340920-A9EA-668B-F100-AE4F05B80B8A" markedGenerate="false"/>
-   <object objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" markedGenerate="false"/>
-   <object objectID="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" markedGenerate="false"/>
-   <object objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" markedGenerate="false"/>
+   <object objectID="36357FFB-27FE-4554-0805-F2EE05509CF8" markedGenerate="false"/>
    <object objectID="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" markedGenerate="false"/>
-   <object objectID="A6C9CB9F-2A04-6149-B489-0F982E25537F" markedGenerate="false"/>
-   <object objectID="426AC5CB-3539-CF17-7F23-5DE492790699" markedGenerate="false"/>
-   <object objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" markedGenerate="false"/>
-   <object objectID="188AF0AB-17A3-8263-2F42-0497575D0D89" markedGenerate="false"/>
    <object objectID="A56DAC81-B2AF-95EF-0A7E-849F9FFCF947" markedGenerate="false"/>
    <object objectID="731DB386-C854-0127-F483-42BD17C99693" markedGenerate="false"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

@@ -74,7 +74,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="05A31656-2CB5-B575-3192-062624548ACE" name="DEVELOPMENTACTIONPARAGRAPH_DEVELOPMENTACTION_FK">
+<ind_PK_UK id="05A31656-2CB5-B575-3192-062624548ACE" name="DAP_DEVELOPMENTACTION_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:47:37 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -83,7 +83,7 @@
 <colUsage columnID="BB5042BE-2D50-CE4D-3A72-BC4DCD1B246B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7B8FC936-1EC4-987E-20D2-6A52F664C8C7" name="DEVELOPMENTACTIONPARAGRAPH_STANDARDPARAGRAPH_FK">
+<ind_PK_UK id="7B8FC936-1EC4-987E-20D2-6A52F664C8C7" name="DAP_STANDARDPARAGRAPH_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:47:37 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

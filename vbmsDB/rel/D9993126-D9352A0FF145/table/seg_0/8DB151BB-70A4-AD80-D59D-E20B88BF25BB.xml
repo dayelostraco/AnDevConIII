@@ -154,7 +154,7 @@
 <colUsage columnID="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B2A82098-27B3-4331-6143-8418ECFC850E" name="DEVELOPMENTPLANACTIVITY_DEVELOPMENTPLANTASK_FK">
+<ind_PK_UK id="B2A82098-27B3-4331-6143-8418ECFC850E" name="DPA_DEVELOPMENTPLANTASK_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:33:13 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
@@ -163,7 +163,7 @@
 <colUsage columnID="3E417697-EBB7-7E8A-2028-A6DE5AAB01E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2CDD1C3C-1A1F-A72A-AC05-62C32EFC18EF" name="DEVELOPMENTPLANACTIVITY_DEVELOPMENTACTIVITY_FK">
+<ind_PK_UK id="2CDD1C3C-1A1F-A72A-AC05-62C32EFC18EF" name="DPA_DEVELOPMENTACTIVITY_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:33:51 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>

@@ -168,7 +168,7 @@
 <colUsage columnID="232CB3EA-CFD7-0337-85CF-0C4D15357B24"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6964198B-E524-50BF-016F-A717F569506A" name="DEVELOPMENTACTIVITY_DEVELOPMENTTASK_FK">
+<ind_PK_UK id="6964198B-E524-50BF-016F-A717F569506A" name="DA_DEVELOPMENTTASK_FK">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:41:33 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
