@@ -54,7 +54,7 @@
 <Column name="CONTENT_TYPE" id="41E862FC-DC82-2513-929D-51318A066C79">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 13:17:24 UTC</createdTime>
-<comment>This is our discriminator column for LETTERCONTENT.</comment>
+<comment>ORM discriminator column for LETTERCONTENT.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -65,7 +65,7 @@
 <Column name="LETTER_ID" id="6240E230-2E45-9CA4-765F-C7165C53A059">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 13:17:07 UTC</createdTime>
-<comment>This is our FK back to the LETTER table.</comment>
+<comment>FK to the LETTER table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -81,7 +81,7 @@
 <Column name="DEVELOPMENTPLANACTION_ID" id="5CACEF06-C6C7-8FD8-0DC5-DBF416D3983D">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 13:37:20 UTC</createdTime>
-<comment>This is the FK back to the DEVELOPMENTPLANACTION table.</comment>
+<comment>FK to the DEVELOPMENTPLANACTION table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -96,7 +96,7 @@
 <Column name="DEVELOPMENTPLANACTIVITY_ID" id="C16E48FC-CAAF-A0F3-E00B-477440AC5DF8">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 13:58:51 UTC</createdTime>
-<comment>This is the FK back to the DEVELOPMENTPLANACTIVITY table.</comment>
+<comment>FK to the DEVELOPMENTPLANACTIVITY table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -112,7 +112,7 @@
 <Column name="LETTERSECTION_ID" id="68CA1751-3FB8-46D0-6870-451E2B1DE3B4">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:05:21 UTC</createdTime>
-<comment>This is the FK to lookup our letter section.</comment>
+<comment>FK to LETTERSECION.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -127,7 +127,7 @@
 <Column name="CUSTOMPARAGRAPH_ID" id="EC89DB09-F4F0-CB42-A5FD-0DB20BBB7282">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:10:56 UTC</createdTime>
-<comment>This is a FK to the CUSTOMPARAGRAPH table.</comment>
+<comment>FK to the CUSTOMPARAGRAPH table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -142,7 +142,7 @@
 <Column name="SORTORDER" id="E9BEBE91-97DC-8CAD-5C8B-21C9F7557587">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:46:11 UTC</createdTime>
-<comment>This provides sort information about our letter content.</comment>
+<comment>Sort order for letter content.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

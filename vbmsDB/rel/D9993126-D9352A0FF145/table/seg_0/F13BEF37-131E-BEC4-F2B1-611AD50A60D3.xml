@@ -71,7 +71,7 @@
 <Column name="FILLIN_TYPE" id="480A5C6B-3A79-1F7D-DF36-15A2F4FF02F1">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-<comment>This is the type of a FillIn.</comment>
+<comment>Fillin type.</comment>
 <commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER TYPE CODE. A value which describes how the argument list will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -84,7 +84,7 @@
 <Column name="OUTPUT_ARGMT_TYPE_CD" id="F7DE32C3-BE0B-46FA-8D22-260939822F20">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-<comment>The type code of the Standard Argument.</comment>
+<comment>The type code of the standard argument.</comment>
 <commentInRDBMS>STANDARD OUTPUT ARGUMENT TYPE CODE. An abbreviation representing the location (database) or person (user) as the source of the output argument.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>

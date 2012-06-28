@@ -84,7 +84,7 @@
 <Column name="NAME" id="C822DB9D-981A-3EED-BD12-F04D5F37DBB3">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>This is the name of the Development Task.</comment>
+<comment>This is the name of the development task.</comment>
 <commentInRDBMS>Name of the task.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -109,7 +109,7 @@
 <Column name="SORTORDER" id="AD55B8D4-0D4D-8617-D132-545D8B4EB501">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>This column tells us which order to sort the Tasks by.</comment>
+<comment>This column tells us which order to sort the tasks.</comment>
 <commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -123,7 +123,7 @@
 <Column name="REQUIREDIND" id="ACB1C292-DB5D-796C-C39C-5888CD0F8F42">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>Boolean whether or not the Task is required.</comment>
+<comment>Boolean indicating whether or not the task is required.</comment>
 <commentInRDBMS>Indicates whether a task is required</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <constraintName>CK_DEVTASKv1_REQUIREDIND</constraintName>
@@ -154,7 +154,7 @@
 <Column name="UNIQUEIND" id="905D4693-15B5-DA5A-6960-0BA88A5C7983">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>Wether or not you can have more than 1 of this task on a Dev Plan.&lt;br/&gt;&lt;br/&gt;</comment>
+<comment>Indicates whether you can have more than 1 of this task on a development plan.&lt;br/&gt;&lt;br/&gt;</comment>
 <commentInRDBMS>Indicates whether a task is unique(ie. one task per plan)</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <constraintName>CK_DEVTASKv1_UNIQUEIND</constraintName>
@@ -172,7 +172,7 @@
 <Column name="CORRESPONDENCEIND" id="4AAFA2E3-2268-8BAB-8BA1-4265BBA57DE2">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>Boolean for whether or not this is a correspondence task.</comment>
+<comment>Boolean indicator for whether or not this is a correspondence task.</comment>
 <commentInRDBMS>This is the correspondence ind flag column. Default is set to 0 (false).</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <constraintName>CK_DEVTASKv1_CORRESPONDENCEIND</constraintName>

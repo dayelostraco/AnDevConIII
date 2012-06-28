@@ -54,7 +54,7 @@
 <Column name="LETTER_ID" id="7D6F68B5-4AFD-C974-F8BE-786CF0C0C176">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 15:24:44 UTC</createdTime>
-<comment>This is the FK to the LETTER table.</comment>
+<comment>FK to the LETTER table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <Column name="SORTORDER" id="289605D8-0221-675A-4693-400934235FB8">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 15:26:55 UTC</createdTime>
-<comment>This describes the order that sections should appear in a letter.</comment>
+<comment>This describes the order that sections appear in a letter.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

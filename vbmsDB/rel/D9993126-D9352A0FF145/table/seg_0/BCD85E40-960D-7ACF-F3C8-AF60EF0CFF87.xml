@@ -45,7 +45,7 @@
 <Column name="STANDARDPARAGRAPH_ID" id="3F66D700-94EB-7767-3AD7-D5CD20B918FF">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:12:48 UTC</createdTime>
-<comment>This is the FK to the STANARDPARAGRAPH table.</comment>
+<comment>FK to the STANARDPARAGRAPH table.</comment>
 <commentInRDBMS>STANDARD PARAGRAPH IDENTIFIER. The factless identifier of an instance of Standard Paragraph (STD_PRGRPH) which is associated to a Standard Output Argument.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +62,7 @@
 <Column name="FILLIN_ID" id="6FAF776E-B955-B98F-5786-965A33035085">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:12:48 UTC</createdTime>
-<comment>This is the FK to the FILLIN table.</comment>
+<comment>FK to the FILLIN table.</comment>
 <commentInRDBMS>STANDARD PARAGRAPH DETAIL OUTPUT ARGUMENT IDENTIFIER. The factless identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT) which is associated to a Standard Paragraph.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
