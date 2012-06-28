@@ -79,6 +79,7 @@
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 13:37:20 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
@@ -107,6 +108,7 @@
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:05:21 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
@@ -120,6 +122,7 @@
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:10:56 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>

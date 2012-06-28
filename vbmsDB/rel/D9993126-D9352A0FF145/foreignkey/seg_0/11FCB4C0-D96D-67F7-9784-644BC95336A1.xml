@@ -7,6 +7,6 @@
 <deleteRule>NO ACTION</deleteRule>
 <localFKIndex>36233A5F-5FC4-2520-C61B-0FF5D90EAB16</localFKIndex>
 <keyObject>6BDCC4C1-C4C7-66D8-4EB5-69687F547D88</keyObject>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <transferable>true</transferable>
 </FKIndexAssociation>
