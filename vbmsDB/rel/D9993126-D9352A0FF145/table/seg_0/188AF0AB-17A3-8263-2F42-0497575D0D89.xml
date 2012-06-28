@@ -45,6 +45,7 @@
 <Column name="ID" id="931E67FE-B695-E235-377C-4FAD1E012AF0">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:09:12 UTC</createdTime>
+<comment>Primary key column.&lt;br/&gt;</comment>
 <commentInRDBMS>STANDARD PARAGRAPH IDENTIFIER. A unique, factless identifier of an instance of Standard Paragraph (STD_PRGRPH).</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

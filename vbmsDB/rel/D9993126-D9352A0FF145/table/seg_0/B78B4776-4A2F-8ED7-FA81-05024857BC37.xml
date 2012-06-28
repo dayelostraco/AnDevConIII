@@ -1,227 +1,215 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" id="B78B4776-4A2F-8ED7-FA81-05024857BC37" directorySegmentName="seg_0" name="DEVELOPMENTPLANACTION">
-   <createdBy>grantlewis</createdBy>
-   <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 15:17:15 UTC</changedTime>
-   <commentInRDBMS>This table contains the actions related to a development plan task activity.</commentInRDBMS>
-   <ownerDesignName>vbmsDB</ownerDesignName>
-   <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-   <pkName>DVPLNTSKACTACT_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="8BC2E0F3-8600-576F-A024-5EB4520C76B8">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>This is the primary key.</comment>
-         <commentInRDBMS>The unique ID of the activity action.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="VBMSUSER_ID" id="BD9B2AFE-08BD-319A-EEDF-1054B61AC92B">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>FK for last committing user.</comment>
-         <commentInRDBMS>The VBMSUSER_ID field is a foreign key field which references the ID field of the VBMSUSER table.  This is the user who created the fillin.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEVELOPMENTPLANACTIVITY_ID" id="B7CEEDF4-6F6C-B91E-7568-99E14C5E6F15">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>FK back to DEVELOPMENTPLANACTIVITY.</comment>
-         <commentInRDBMS>The DEVPLANTASKACTIVITY_ID field is a foreign key field which references the ID field of the DEVPLANTASKACTIVITY table.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>38</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <delegate>F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E</delegate>
-         <autoIncrementCycle>false</autoIncrementCycle>
-         <associations>
-            <colAssociation fkAssociation="CB47FE11-3DE1-87F6-218F-A497F8D5F4A2" referredColumn="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEVELOPMENTACTION_ID" id="AFCE0CC5-AA2A-A013-7232-B09E2520FE42">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>FK to DEVELOPMENTACTION table.</comment>
-         <commentInRDBMS>The STDDVLPMTACTION_ID field is a foreign key field which references the ID field of the STDDVLPMTACTION table.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>15</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <delegate>CB3A3AB6-B146-F040-AFA1-7BC6A499E915</delegate>
-         <autoIncrementCycle>false</autoIncrementCycle>
-         <associations>
-            <colAssociation fkAssociation="A362CE33-79E8-F3A5-A4E5-9BBD843D557E" referredColumn="CB3A3AB6-B146-F040-AFA1-7BC6A499E915"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OMITIND" id="C0D250E5-54CD-84A4-434E-A3BFA2833776">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Boolean ind for whether or not the DEVELOPMENTPLANACTION record has been ommitted.</comment>
-         <commentInRDBMS>An indicator to determine whether this action was omitted from the letter.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <constraintName>CK_DEVPLANTASKACTIVITYACTIONv1_OMITIND</constraintName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <defaultValue>0</defaultValue>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="OMITIND IN (0,1)"/>
-         </checkConstraint>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TRACKEDITEM_ID" id="E19E1F73-5DE9-5FFF-4F8D-4F96DE2843AD">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>External ID of the Tracked Item that is created by this DEVPLANACTION.</comment>
-         <commentInRDBMS>External Id to tracked item.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CREATEDT" id="639BBCD7-C908-DA45-A1A3-60B2AAA4E2B4">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>TCreated date of this record.</comment>
-         <commentInRDBMS>This is the date and time that the activity action record was created.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <defaultValue>SYSDATE</defaultValue>
-         <use>0</use>
-         <logicalDatatype>LOGDT007</logicalDatatype>
-         <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LASTUPDATEDT" id="53F52E89-D334-7166-1D19-C1E82C8F9F12">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Last updated date of this record.</comment>
-         <commentInRDBMS>This is the date and time that the activity action record was last updated.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <defaultValue>SYSDATE</defaultValue>
-         <use>0</use>
-         <logicalDatatype>LOGDT007</logicalDatatype>
-         <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EXPIRATIONDT" id="BC926466-2F86-7054-0564-5FC4AEDD17F3">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Soft delete column for this record.</comment>
-         <commentInRDBMS>This is the delete date for an activity action - null means our activity action is active.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>0</use>
-         <logicalDatatype>LOGDT007</logicalDatatype>
-         <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SUSPENSE_DURATION" id="92990EE5-C38E-1B2C-004E-A52D01523AB7">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Suspense duration days for DeveopmentPlanAction.</comment>
-         <commentInRDBMS>This is the suspense duration.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>E8828FF2-5F9F-0D0A-8E85-7AE78BEC0198</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6BDCC4C1-C4C7-66D8-4EB5-69687F547D88" name="DEVELOPMENTPLANACTION_PK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 00:59:11 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="8BC2E0F3-8600-576F-A024-5EB4520C76B8"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="21D926DB-AA5A-160F-75BC-E393EC5D9195" name="DEVELOPMENTPLANACTION_DEVELOPMENTACTION_FK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 01:16:56 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="AFCE0CC5-AA2A-A013-7232-B09E2520FE42"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="393F2990-ED38-017C-F221-5CE40E34AA64" name="DEVELOPMENTPLANACTION_DEVELOPMENTPLANACTIVITY_FK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:35:33 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="B7CEEDF4-6F6C-B91E-7568-99E14C5E6F15"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<commentInRDBMS>This table contains the actions related to a development plan task activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>DVPLNTSKACTACT_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8BC2E0F3-8600-576F-A024-5EB4520C76B8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Primary key column.</comment>
+<commentInRDBMS>The unique ID of the activity action.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VBMSUSER_ID" id="BD9B2AFE-08BD-319A-EEDF-1054B61AC92B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>FK for last committing user.</comment>
+<commentInRDBMS>The VBMSUSER_ID field is a foreign key field which references the ID field of the VBMSUSER table.  This is the user who created the fillin.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPMENTPLANACTIVITY_ID" id="B7CEEDF4-6F6C-B91E-7568-99E14C5E6F15">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>FK to DEVELOPMENTPLANACTIVITY.</comment>
+<commentInRDBMS>The DEVPLANTASKACTIVITY_ID field is a foreign key field which references the ID field of the DEVPLANTASKACTIVITY table.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB47FE11-3DE1-87F6-218F-A497F8D5F4A2" referredColumn="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E"/>
+</associations>
+</Column>
+<Column name="DEVELOPMENTACTION_ID" id="AFCE0CC5-AA2A-A013-7232-B09E2520FE42">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>FK to DEVELOPMENTACTION table.</comment>
+<commentInRDBMS>The STDDVLPMTACTION_ID field is a foreign key field which references the ID field of the STDDVLPMTACTION table.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>CB3A3AB6-B146-F040-AFA1-7BC6A499E915</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A362CE33-79E8-F3A5-A4E5-9BBD843D557E" referredColumn="CB3A3AB6-B146-F040-AFA1-7BC6A499E915"/>
+</associations>
+</Column>
+<Column name="OMITIND" id="C0D250E5-54CD-84A4-434E-A3BFA2833776">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Boolean indicator for whether or not the DEVELOPMENTPLANACTION record has been ommitted.</comment>
+<commentInRDBMS>An indicator to determine whether this action was omitted from the letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<constraintName>CK_DEVPLANTASKACTIVITYACTIONv1_OMITIND</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B529B121-9CCA-D2B4-9E51-4774E2709908</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="OMITIND IN (0,1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRACKEDITEM_ID" id="E19E1F73-5DE9-5FFF-4F8D-4F96DE2843AD">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>External ID of the tracked Item that is created by this DEVPLANACTION.</comment>
+<commentInRDBMS>External Id to tracked item.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="639BBCD7-C908-DA45-A1A3-60B2AAA4E2B4">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Created date of this record.</comment>
+<commentInRDBMS>This is the date and time that the activity action record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="53F52E89-D334-7166-1D19-C1E82C8F9F12">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Last updated date of this record.</comment>
+<commentInRDBMS>This is the date and time that the activity action record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>SYSDATE</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="BC926466-2F86-7054-0564-5FC4AEDD17F3">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Soft delete column for this record.</comment>
+<commentInRDBMS>This is the delete date for an activity action - null means our activity action is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUSPENSE_DURATION" id="92990EE5-C38E-1B2C-004E-A52D01523AB7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<comment>Suspense duration days for DeveopmentPlanAction.</comment>
+<commentInRDBMS>This is the suspense duration.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E8828FF2-5F9F-0D0A-8E85-7AE78BEC0198</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BDCC4C1-C4C7-66D8-4EB5-69687F547D88" name="DEVELOPMENTPLANACTION_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:59:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8BC2E0F3-8600-576F-A024-5EB4520C76B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21D926DB-AA5A-160F-75BC-E393EC5D9195" name="DEVELOPMENTPLANACTION_DEVELOPMENTACTION_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 01:16:56 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="AFCE0CC5-AA2A-A013-7232-B09E2520FE42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="393F2990-ED38-017C-F221-5CE40E34AA64" name="DEVELOPMENTPLANACTION_DEVELOPMENTPLANACTIVITY_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:35:33 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="B7CEEDF4-6F6C-B91E-7568-99E14C5E6F15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

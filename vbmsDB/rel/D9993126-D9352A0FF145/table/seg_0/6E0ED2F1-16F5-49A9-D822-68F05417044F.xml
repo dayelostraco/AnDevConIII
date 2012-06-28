@@ -43,6 +43,7 @@
 <Column name="DEVELOPMENTACTION_ID" id="BB5042BE-2D50-CE4D-3A72-BC4DCD1B246B">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:44:24 UTC</createdTime>
+<comment>FK to DEVELOPMENTACTION table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,6 +59,7 @@
 <Column name="STANDARDPARAGRAPH_ID" id="9317433E-995E-EE44-BA5A-950DA9D71D57">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:45:42 UTC</createdTime>
+<comment>FK to the STNARDPARAGRAPH table.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

@@ -45,7 +45,7 @@
 <Column name="ID" id="232CB3EA-CFD7-0337-85CF-0C4D15357B24">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<comment>The primary key column for development activity.</comment>
+<comment>Primary key column.</comment>
 <commentInRDBMS>The unique ID of the development activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,6 +65,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <delegate>4A7889B2-F948-C44C-6C33-D16F4C3ADA57</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -126,6 +127,7 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LASTUPDATEDT" id="6AC79079-6D28-E6A6-C6FE-5E57355FBCD8">
