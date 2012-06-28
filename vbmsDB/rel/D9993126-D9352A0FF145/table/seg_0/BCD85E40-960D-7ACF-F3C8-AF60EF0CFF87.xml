@@ -1,104 +1,100 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" id="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" directorySegmentName="seg_0" name="PARAGRAPHFILLIN">
-   <createdBy>grantlewis</createdBy>
-   <createdTime>2012-06-27 02:12:48 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 15:29:53 UTC</changedTime>
-   <commentInRDBMS>STANDARD PARAGRAPH DETAIL. This is an intersection of Standard Paragraphs and Standard Output Arguments. A paragraph may have many arguments and an arguments may be used by many paragraphs.</commentInRDBMS>
-   <ownerDesignName>vbmsDB</ownerDesignName>
-   <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-   <pkName>STD_PRGRPH_DETAIL_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STANDARDPARAGRAPH_ID" id="3F66D700-94EB-7767-3AD7-D5CD20B918FF">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:12:48 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <comment>This is the FK to the STANARDPARAGRAPH table.</comment>
-         <commentInRDBMS>STANDARD PARAGRAPH IDENTIFIER. The factless identifier of an instance of Standard Paragraph (STD_PRGRPH) which is associated to a Standard Output Argument.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>15</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <delegate>931E67FE-B695-E235-377C-4FAD1E012AF0</delegate>
-         <autoIncrementCycle>false</autoIncrementCycle>
-         <associations>
-            <colAssociation fkAssociation="51FE9ADB-1B9F-A9E2-EFC8-B7F01F97776A" referredColumn="931E67FE-B695-E235-377C-4FAD1E012AF0"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FILLIN_ID" id="6FAF776E-B955-B98F-5786-965A33035085">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:12:48 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <comment>This is the FK to the FILLIN table.</comment>
-         <commentInRDBMS>STANDARD PARAGRAPH DETAIL OUTPUT ARGUMENT IDENTIFIER. The factless identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT) which is associated to a Standard Paragraph.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>15</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <delegate>25586E9F-F05C-C302-C2AF-1748A7C9850A</delegate>
-         <autoIncrementCycle>false</autoIncrementCycle>
-         <associations>
-            <colAssociation fkAssociation="CB8B4F97-8AF6-AEBC-6508-70184F3ABE08" referredColumn="25586E9F-F05C-C302-C2AF-1748A7C9850A"/>
-         </associations>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="70D524AE-7638-50F2-3F6D-93B3CB41D708" name="PARAGRAPHFILLIN_STANDARDPARAGRAPH_FK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:17:02 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="3F66D700-94EB-7767-3AD7-D5CD20B918FF"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A21587D8-C628-DED1-B918-469EC07106B8" name="PARAGRAPHFILLIN_FILLIN_FK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:17:28 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="6FAF776E-B955-B98F-5786-965A33035085"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<commentInRDBMS>STANDARD PARAGRAPH DETAIL. This is an intersection of Standard Paragraphs and Standard Output Arguments. A paragraph may have many arguments and an arguments may be used by many paragraphs.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>STD_PRGRPH_DETAIL_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STANDARDPARAGRAPH_ID" id="3F66D700-94EB-7767-3AD7-D5CD20B918FF">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<comment>This is the FK to the STANARDPARAGRAPH table.</comment>
+<commentInRDBMS>STANDARD PARAGRAPH IDENTIFIER. The factless identifier of an instance of Standard Paragraph (STD_PRGRPH) which is associated to a Standard Output Argument.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>931E67FE-B695-E235-377C-4FAD1E012AF0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51FE9ADB-1B9F-A9E2-EFC8-B7F01F97776A" referredColumn="931E67FE-B695-E235-377C-4FAD1E012AF0"/>
+</associations>
+</Column>
+<Column name="FILLIN_ID" id="6FAF776E-B955-B98F-5786-965A33035085">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:12:48 UTC</createdTime>
+<comment>This is the FK to the FILLIN table.</comment>
+<commentInRDBMS>STANDARD PARAGRAPH DETAIL OUTPUT ARGUMENT IDENTIFIER. The factless identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT) which is associated to a Standard Paragraph.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>25586E9F-F05C-C302-C2AF-1748A7C9850A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB8B4F97-8AF6-AEBC-6508-70184F3ABE08" referredColumn="25586E9F-F05C-C302-C2AF-1748A7C9850A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D524AE-7638-50F2-3F6D-93B3CB41D708" name="PARAGRAPHFILLIN_STANDARDPARAGRAPH_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:17:02 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="3F66D700-94EB-7767-3AD7-D5CD20B918FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A21587D8-C628-DED1-B918-469EC07106B8" name="PARAGRAPHFILLIN_FILLIN_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:17:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="6FAF776E-B955-B98F-5786-965A33035085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

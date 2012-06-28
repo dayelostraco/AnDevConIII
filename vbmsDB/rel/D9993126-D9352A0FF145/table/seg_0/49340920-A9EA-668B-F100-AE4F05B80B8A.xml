@@ -45,6 +45,7 @@
 <Column name="ID" id="D39A3525-5BC7-9DF8-E805-90B281DD8443">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:43:36 UTC</createdTime>
+<comment>Primary key column.</comment>
 <commentInRDBMS>The unique ID of the development plan_task.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,6 +77,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <delegate>4A7889B2-F948-C44C-6C33-D16F4C3ADA57</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

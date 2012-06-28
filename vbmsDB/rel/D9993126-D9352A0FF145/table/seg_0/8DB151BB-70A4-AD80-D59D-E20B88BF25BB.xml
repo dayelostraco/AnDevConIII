@@ -45,7 +45,7 @@
 <Column name="ID" id="F0B74D1B-3AEA-F278-76BB-08BFD52D6F7E">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 02:24:09 UTC</createdTime>
-<comment>The unique ID for the development plan activity.</comment>
+<comment>Primary key column.</comment>
 <commentInRDBMS>The unique ID of the development plan_task_activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

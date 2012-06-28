@@ -1,146 +1,137 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" id="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" directorySegmentName="seg_0" name="FILLIN">
-   <createdBy>grantlewis</createdBy>
-   <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 15:21:00 UTC</changedTime>
-   <commentInRDBMS>STANDARD OUTPUT ARGUMENT. Defines substitution parameters within a paragraph that are used to insert user entered variables or programatically derived data (from the database) into the text of a paragraph.</commentInRDBMS>
-   <ownerDesignName>vbmsDB</ownerDesignName>
-   <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-   <pkName>STD_OUTPUT_ARGMT_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="25586E9F-F05C-C302-C2AF-1748A7C9850A">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Primary key of this FILLIN table.</comment>
-         <commentInRDBMS>STANDARD OUTPUT ARGUMENT IDENTIFIER. A factless, unique identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT).</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>15</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEFAULT_TXT" id="B746CD76-34E5-0F1A-55B3-5330E6C37A7E">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>Column for default text of a FillIn.</comment>
-         <commentInRDBMS>DEFAULT TEXT. The default text value for the Output Argument to be prompted to user.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>100 BYTE</dataTypeSize>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FILLIN_TYPE" id="480A5C6B-3A79-1F7D-DF36-15A2F4FF02F1">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>This is the type of a FillIn.</comment>
-         <commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER TYPE CODE. A value which describes how the argument list will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>100 BYTE</dataTypeSize>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OUTPUT_ARGMT_TYPE_CD" id="F7DE32C3-BE0B-46FA-8D22-260939822F20">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>The type code of the Standard Argument.</comment>
-         <commentInRDBMS>STANDARD OUTPUT ARGUMENT TYPE CODE. An abbreviation representing the location (database) or person (user) as the source of the output argument.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>12 BYTE</dataTypeSize>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="KEYWRD_TXT" id="EFDD8ABF-A4A6-2993-5F7C-094FCD82D574">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>This is the keyword text column of the FillIn.</comment>
-         <commentInRDBMS>STANDARD OUTPUT ARGUMENT KEYWORD TEXT. A unique alphanumeric value that matches a &amp;quot;tagged&amp;quot; keyword within a block of text used to identify an output argument.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>100 BYTE</dataTypeSize>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="USER_PROMPT" id="1F7FE493-464F-68A6-DA17-8A14C8FE7AB4">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <comment>This is what the user is prompted to input on the screen.</comment>
-         <commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER. This entity contains qualifiers for arguments for paragraphs. Qualifiers define and describe how the argument will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>100 BYTE</dataTypeSize>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B2C1CDEE-F8BA-ECF1-BE16-378F2734E15F" name="FILLIN_PK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 02:02:32 UTC</createdTime>
-         <changedTime>2012-06-28 15:07:42 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="25586E9F-F05C-C302-C2AF-1748A7C9850A"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT. Defines substitution parameters within a paragraph that are used to insert user entered variables or programatically derived data (from the database) into the text of a paragraph.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>STD_OUTPUT_ARGMT_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="25586E9F-F05C-C302-C2AF-1748A7C9850A">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>Primary key column.</comment>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT IDENTIFIER. A factless, unique identifier of an instance of Standard Output Argument (STD_OUTPUT_ARGMT).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEFAULT_TXT" id="B746CD76-34E5-0F1A-55B3-5330E6C37A7E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>Column for default text of a FillIn.</comment>
+<commentInRDBMS>DEFAULT TEXT. The default text value for the Output Argument to be prompted to user.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILLIN_TYPE" id="480A5C6B-3A79-1F7D-DF36-15A2F4FF02F1">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>This is the type of a FillIn.</comment>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER TYPE CODE. A value which describes how the argument list will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OUTPUT_ARGMT_TYPE_CD" id="F7DE32C3-BE0B-46FA-8D22-260939822F20">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>The type code of the Standard Argument.</comment>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT TYPE CODE. An abbreviation representing the location (database) or person (user) as the source of the output argument.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEYWRD_TXT" id="EFDD8ABF-A4A6-2993-5F7C-094FCD82D574">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>This is the keyword text column of the FillIn.</comment>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT KEYWORD TEXT. A unique alphanumeric value that matches a &quot;tagged&quot; keyword within a block of text used to identify an output argument.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_PROMPT" id="1F7FE493-464F-68A6-DA17-8A14C8FE7AB4">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<comment>This is what the user is prompted to input on the screen.</comment>
+<commentInRDBMS>STANDARD OUTPUT ARGUMENT QUALIFIER. This entity contains qualifiers for arguments for paragraphs. Qualifiers define and describe how the argument will appear or display to the user as well as how it will appear in the text when printed in a letter.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2C1CDEE-F8BA-ECF1-BE16-378F2734E15F" name="FILLIN_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 02:02:32 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="25586E9F-F05C-C302-C2AF-1748A7C9850A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

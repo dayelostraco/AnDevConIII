@@ -45,6 +45,7 @@
 <Column name="ID" id="3E5A4ED8-19A5-69E4-2223-BB810AE82CDF">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-26 23:07:46 UTC</createdTime>
+<comment>Primary key column.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -54,6 +55,7 @@
 <Column name="CLAIM_ID" id="2B5D5EAE-0FCF-5FEC-D097-5D08FF90FE6D">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-26 23:09:34 UTC</createdTime>
+<comment>The claim ID associated to the development plan.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
