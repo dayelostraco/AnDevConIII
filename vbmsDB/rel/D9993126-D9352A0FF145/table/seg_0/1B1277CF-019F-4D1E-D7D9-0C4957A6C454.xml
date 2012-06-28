@@ -1,83 +1,76 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" id="1B1277CF-019F-4D1E-D7D9-0C4957A6C454" directorySegmentName="seg_0" name="CUSTOMPARAGRAPH">
-   <createdBy>grantlewis</createdBy>
-   <createdTime>2012-06-27 14:32:08 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 15:29:21 UTC</changedTime>
-   <ownerDesignName>vbmsDB</ownerDesignName>
-   <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
-   <pkName>CUSTOMPARAGRAPH_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="E2D87173-6151-5267-B608-5C27E499AB6B">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 14:35:46 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <comment>This is the primary key of the CUSTOMAPRAGRAPH table.</comment>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <use>0</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PARAGRAPH_TEXT" id="C7376A9A-ACDC-842C-F0C1-327407D0603E">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-27 14:38:35 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <comment>This is the actual text of the paragraph (clob).</comment>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>0</use>
-         <logicalDatatype>LOGDT028</logicalDatatype>
-         <domain>15E427FA-AF7D-0343-5FEB-9C60C6FF59C4</domain>
-         <autoIncrementCycle>false</autoIncrementCycle>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="52F391BA-A4FD-066D-E3E1-E9D387F84C29" name="CUSTOMPARAGRAPH_PK">
-         <createdBy>grantlewis</createdBy>
-         <createdTime>2012-06-28 14:11:28 UTC</createdTime>
-         <changedTime>2012-06-28 15:24:09 UTC</changedTime>
-         <ownerDesignName>vbmsDB</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="E2D87173-6151-5267-B608-5C27E499AB6B"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:32:08 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>CUSTOMPARAGRAPH_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E2D87173-6151-5267-B608-5C27E499AB6B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:35:46 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARAGRAPH_TEXT" id="C7376A9A-ACDC-842C-F0C1-327407D0603E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 14:38:35 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>15E427FA-AF7D-0343-5FEB-9C60C6FF59C4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F391BA-A4FD-066D-E3E1-E9D387F84C29" name="CUSTOMPARAGRAPH_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 14:11:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E2D87173-6151-5267-B608-5C27E499AB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
