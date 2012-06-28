@@ -105,6 +105,21 @@
 <dataTypeSize>255 BYTE</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TASKSTATUS" id="82D62EF4-F75B-FD97-51D7-B0CB0998210B">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:11:30 UTC</createdTime>
+<comment>FK to DEVSTATUS_LU lookup table.</comment>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<delegate>1AB7CDC9-695B-97B3-F286-2AE45BB324EB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150320F2-168A-9E2C-EF41-308F63327DDF" referredColumn="1AB7CDC9-695B-97B3-F286-2AE45BB324EB"/>
+</associations>
+</Column>
 <Column name="OBSOLETEIND" id="E5B9C4BE-0169-0BA0-6F53-184B6948E159">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:43:36 UTC</createdTime>
@@ -201,6 +216,15 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="C9744EF1-DAFE-6B34-D8E6-534F53907BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="307438FB-00DF-EFAF-5280-1ADBD707A470" name="DEVELOPMENTPLANTASK_DEVSTATUS_LU_FK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:13:28 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="82D62EF4-F75B-FD97-51D7-B0CB0998210B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

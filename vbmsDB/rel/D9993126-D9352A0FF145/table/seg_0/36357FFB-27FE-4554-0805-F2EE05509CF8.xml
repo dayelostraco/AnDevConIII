@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="36357FFB-27FE-4554-0805-F2EE05509CF8" directorySegmentName="seg_0" name="DEVSTATUS_LU">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>This table contains the development status information.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pkName>DEVSTATUS_LU_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1AB7CDC9-695B-97B3-F286-2AE45BB324EB">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>The unique ID of the development status.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="F663720A-E040-188E-7B47-F3D1703C9DF7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>The name of the development status.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="7402470F-66B4-A786-E9C4-F6ED20AC53E7">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="654AC6B9-76EA-227A-BB49-523F1C58B69E">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>This is the date and time that the record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SORTORDER" id="8F40D8DD-58DB-AA5A-BFF9-7C033B8800B0">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="D9CE7D02-B2F4-A80E-2944-B727646CBEE6">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>The type of the development status, either EVIDENCE or TASK.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATIONDT" id="36629749-D374-9084-2C15-BAEC99C6BA67">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<commentInRDBMS>This is the delete date for a development status - null means our development status is active.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F53D94F1-5150-471D-2DF7-3842C258DF3E" name="DEVSTATUS_LU_PK">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1AB7CDC9-695B-97B3-F286-2AE45BB324EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11723E72-58E2-0459-4145-D9B037EE1AA5" name="DEVST_NAME_UC">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 18:12:13 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F663720A-E040-188E-7B47-F3D1703C9DF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

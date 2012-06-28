@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <StorageDesignOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g" name="Oracle Database 10g" id="D2008E1F-2F9E-4039-71D7-A6727D81D4A3">
-   <createdBy>grantlewis</createdBy>
-   <createdTime>2012-06-27 15:06:23 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 17:57:05 UTC</changedTime>
-   <ownerDesignName>vbmsDB</ownerDesignName>
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 15:06:23 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<siteID>D9582E4E-79E2-319F-387A-2ED963CB9D32</siteID>
+<siteName>Oracle Database 10g</siteName>
+<siteType>8</siteType>
 </StorageDesignOraclev10g>

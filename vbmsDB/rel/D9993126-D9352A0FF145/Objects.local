@@ -10,6 +10,7 @@
    <object objectType="Table" objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
    <object objectType="Table" objectID="49340920-A9EA-668B-F100-AE4F05B80B8A" name="DEVELOPMENTPLANTASK" seqName="seg_0"/>
    <object objectType="Table" objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" name="DEVELOPMENTTASK" seqName="seg_0"/>
+   <object objectType="Table" objectID="36357FFB-27FE-4554-0805-F2EE05509CF8" name="DEVSTATUS_LU" seqName="seg_0"/>
    <object objectType="Table" objectID="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" name="FILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
    <object objectType="Table" objectID="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" name="LETTER" seqName="seg_0"/>
@@ -28,6 +29,7 @@
    <object objectType="FKIndexAssociation" objectID="C4AC0696-6B17-2412-502F-E1F235E5AE41" name="DEVELOPMENTPLANTASK_DEVELOPMENTTASK_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="2CAAF484-ACEF-F1C6-E6CE-583090AF1817" name="FILLINVALUE_DEVELOPMENTPLANACTION_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="30ECFF0B-6965-C10D-C5F4-3ED7B1259803" name="FILLINVALUE_FILLIN_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="150320F2-168A-9E2C-EF41-308F63327DDF" name="DEVELOPMENTPLANTASK_DEVSTATUS_LU_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="E770A63D-091A-67CE-37F8-5E834D490E42" name="LETTERCONTENT_CUSTOMPARAGRAPH_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="11FCB4C0-D96D-67F7-9784-644BC95336A1" name="LETTERCONTENT_DEVELOPMENTPLANACTION_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="49C46F3B-0889-491B-5CBA-D1B61CF02A49" name="LETTERCONTENT_DEVELOPMENTPLANACTIVITY_FK" seqName="seg_0"/>
