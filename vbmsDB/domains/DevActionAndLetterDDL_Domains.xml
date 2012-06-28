@@ -4,6 +4,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255 BYTE" id="0567BCD0-87DE-AFB7-D489-32FC48EBF40D">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -15,6 +16,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_0" id="15E427FA-AF7D-0343-5FEB-9C60C6FF59C4">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <fileName>DevActionAndLetterDDL_Domains</fileName>
@@ -23,6 +25,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_38_0_0" id="1CB8DCCF-D198-72B5-DC55-2EA6D50AEEF2">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>38</dataTypePrecision>
@@ -34,6 +37,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25 BYTE" id="26B78CCA-301C-D81A-1905-315DBC5CEE11">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -45,6 +49,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_32 BYTE" id="2B7E0B6A-B813-F744-A32A-7AEA27496F50">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -56,6 +61,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_256 BYTE" id="43881A09-F15C-8064-3E03-D221A6832432">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -67,6 +73,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1024 CHAR" id="45A5F826-C53D-C7B1-F0CC-AE50544B79FE">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -78,6 +85,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 BYTE" id="53D6B5FE-530E-DBB6-E046-E47AB7792F67">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -89,6 +97,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40 BYTE" id="5917A8FE-B793-676E-BD4A-9E5FE2CE0249">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -100,6 +109,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500 BYTE" id="725A1D43-DD33-569C-D5CF-835F080CFE7A">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -111,6 +121,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60 BYTE" id="83D666EC-F50B-1042-5300-D6E4E2B228E9">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -122,6 +133,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_15_0_0" id="9162D7BC-2ECE-ABE3-75C5-B64F457E235C">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>15</dataTypePrecision>
@@ -133,6 +145,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20 BYTE" id="A744D686-90ED-8DBD-A819-0E171E960C14">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -144,6 +157,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="B529B121-9CCA-D2B4-9E51-4774E2709908">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>1</dataTypePrecision>
@@ -155,6 +169,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_0_0" id="C704ABC6-EE66-019F-6387-A52DC9144E48">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>3</dataTypePrecision>
@@ -166,6 +181,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_19_0_0" id="CA88F711-F35B-F43A-96DE-F9F3DB4BAD32">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>19</dataTypePrecision>
@@ -177,6 +193,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_0_0" id="CE52E4CB-14CD-E199-24F8-B6AB1470C16D">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>4</dataTypePrecision>
@@ -188,6 +205,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50 BYTE" id="CF50A63B-4252-AECA-D201-89001F2C21BE">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -199,6 +217,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_12 BYTE" id="D41E9030-DB73-CB9B-B54E-AF31EC4D0E0D">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -210,6 +229,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100 BYTE" id="DFA3D338-F11B-76DA-85B6-01934F556D6C">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -221,6 +241,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10 BYTE" id="E7D95F0A-EF9F-5848-A2CA-DFABD84A83E2">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
@@ -232,6 +253,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_0_0" id="E8828FF2-5F9F-0D0A-8E85-7AE78BEC0198">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>5</dataTypePrecision>
@@ -243,6 +265,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="EC3FEAC0-7B00-E585-D495-D9E7518AB603">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <fileName>DevActionAndLetterDDL_Domains</fileName>
@@ -251,6 +274,7 @@
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1 BYTE" id="FF34C1D5-24B6-848B-25B8-6B7F03594C74">
          <createdBy>grantlewis</createdBy>
          <createdTime>2012-06-26 22:55:12 UTC</createdTime>
+         <changedTime>2012-06-28 14:52:51 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
          <dataTypePrecision>0</dataTypePrecision>
