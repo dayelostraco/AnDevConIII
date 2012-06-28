@@ -57,6 +57,7 @@
 <Column name="DVLPMT_ACTION_CATEGY_TYPE_CD" id="4DE1D01A-5EDD-825B-C4B3-D63C92DD70A8">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Code represeting the development action category.</comment>
 <commentInRDBMS>The DVLPMT_ACTION_CATEGY_TYPE_CD field is text field which identifies the different types of categories for standard development actions which dispense or gather information</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -69,6 +70,7 @@
 <Column name="FED_AGENCY_IND" id="3799817B-CBD1-CF56-03A5-FE8410CA153D">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Federal agency indicator.</comment>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,6 +82,7 @@
 <Column name="LCTN_ID" id="4E36B58B-7FFD-8D3C-6368-781C6F37A769">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>The location ID of the station.</comment>
 <commentInRDBMS>The LCTN_ID of the station.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -87,11 +90,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PGM_TYPE_CD" id="D8061CCF-8D15-2464-59B3-9010BBBB04EF">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Text field containing a finite, pre-determined value or status that applies to a type of program.</comment>
 <commentInRDBMS>The PGM_TYPE_CD field is text field containing a finite, pre-determined value or status that applies to a type of a PROGRAM</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -104,6 +109,7 @@
 <Column name="PIES_REQST_CD" id="066737E2-7E7B-557D-5750-7AEEA9F0D971">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Standard development action personnel information exchange system request code. Relates to a specific request in the PIES system.</comment>
 <commentInRDBMS>STANDARD DEVELOPMENT ACTION PERSONNEL INFORMATION EXCHANGE SYSTEM REQUEST CODE. Relates to a specific request in the PIES system.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -116,6 +122,7 @@
 <Column name="PTCPNT_ID" id="F3E61D51-4BBE-8DE6-4134-599567BDB095">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Participant ID.</comment>
 <commentInRDBMS>Identifier of PTCPNT.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -123,11 +130,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="STD_ACTION_DESCP_TXT" id="55B37DF3-111A-F10A-647D-955148A1CE5C">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Standard development action description text.</comment>
 <commentInRDBMS>STANDARD DEVELOPMENT ACTION DESCRIPTION TEXT. A short description of the development action.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -140,6 +149,7 @@
 <Column name="STD_DVLPMT_ACTION_CD" id="7044588C-B0E5-9829-3CD4-EE033F0E4514">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Standard development action category type code.</comment>
 <commentInRDBMS>STANDARD DEVELOPMENT ACTION CATEGORY TYPE CODE. Identifies the different types of categories for standard development actions which dispense or gather information.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -152,6 +162,7 @@
 <Column name="STD_PRGRPH_ID" id="F6230035-8963-5831-5B35-09CEC8A3798B">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>The ID of the standard paragraph associated to this development action.</comment>
 <commentInRDBMS>Foreign Key to STD_PRGRPH. A unique, factless identifier of an instance of Standard Paragraph (STD_PRGRPH).</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -159,11 +170,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="SUSPNS_DURATN_QTY" id="37F2B87B-6C86-F9E1-0F8F-E1DB6D7BB133">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Suspense days. A numeric value representing the default or standard number of days that should be allowed for a response. Suspense days &gt; 0 generate a tracked item.</comment>
 <commentInRDBMS>STANDARD DEVELOPMENT ACTION SUSPENSE DURATION QUANTITY. A numeric value representing the default or standard number of days that should be allowed to respond to a request, after which time the action/ request would be considered &quot;mature&quot; or &quot;past due&quot;.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -171,11 +184,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="VBMSCSUPPORTEDIND" id="B6C5DB5E-9611-CFFA-78B6-C0E45A35FEFA">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 01:10:25 UTC</createdTime>
+<comment>Flag indicating if devlelopment action is supported by VBMS-C.</comment>
 <commentInRDBMS>Indicates if the development action is supported by vbms-c. 0 is not supported by vbms-c</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <constraintName>CK_STD_DVLPMT_ACTIONv1_VBMSCSUPPORTEDIND</constraintName>
@@ -184,6 +199,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <listOfValues>
 <valueDef value="0" description=""/>
 <valueDef value="1" description=""/>

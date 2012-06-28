@@ -15,7 +15,6 @@
    <object objectType="Table" objectID="C0B4E4DE-2F01-4819-5EAB-AE794717B3C1" name="LETTER" seqName="seg_0"/>
    <object objectType="Table" objectID="A6C9CB9F-2A04-6149-B489-0F982E25537F" name="LETTERCONTENT" seqName="seg_0"/>
    <object objectType="Table" objectID="426AC5CB-3539-CF17-7F23-5DE492790699" name="LETTERSECTION" seqName="seg_0"/>
-   <object objectType="Table" objectID="CF660A4A-9E52-9AD6-9CF0-4F2D3D094DB8" name="LETTERSECTIONv1" seqName="seg_0"/>
    <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="188AF0AB-17A3-8263-2F42-0497575D0D89" name="STANDARDPARAGRAPH" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="5A23F1A1-DE18-99C0-F838-3A78552FFA1D" name="DEVELOPMENTACTIONPARAGRAPH_DEVELOPMENTACTION_FK" seqName="seg_0"/>
@@ -34,7 +33,6 @@
    <object objectType="FKIndexAssociation" objectID="49C46F3B-0889-491B-5CBA-D1B61CF02A49" name="LETTERCONTENT_DEVELOPMENTPLANACTIVITY_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="36212B0D-3B8E-16F8-DB05-ED664416A298" name="LETTERCONTENT_LETTERSECTION_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C919A71C-C940-6034-30C8-6231C762F31B" name="LETTERCONTENT_LETTER_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="6A29DAAA-5E7C-2826-FDA7-CCED280D3AC3" name="LETTERSECTION_LETTER_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="E89036F3-641F-042D-5172-17AAA5D359E1" name="LETTERSECTION_LETTER_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="588C8804-3534-07B7-B837-542BE990E8EE" name="LETTER_DEVELOPMENTPLANTASK_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="CB8B4F97-8AF6-AEBC-6508-70184F3ABE08" name="PARAGRAPHFILLIN_FILLIN_FK" seqName="seg_0"/>
