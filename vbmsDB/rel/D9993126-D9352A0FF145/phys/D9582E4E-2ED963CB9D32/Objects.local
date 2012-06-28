@@ -32,7 +32,7 @@
    <object objectType="Sequence" objectID="99FF255C-878D-FE66-674F-A34E375652D1" name="DEVELOPMENTTASK_ID_SEQ" seqName="seg_0"/>
    <object objectType="Sequence" objectID="C5131931-37BE-D9FE-F9A7-BE245B38FF49" name="FILLINVALUE_ID_SEQ" seqName="seg_0"/>
    <object objectType="Sequence" objectID="BD9534B0-4515-3CD3-74DC-21A6F44D025E" name="FILLIN_ID_SEQ" seqName="seg_0"/>
-   <object objectType="Sequence" objectID="75E79E14-750C-A26E-0E80-C11CEE24947A" name="LETTERCONTENT" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="75E79E14-750C-A26E-0E80-C11CEE24947A" name="LETTERCONTENT_ID_SEQ" seqName="seg_0"/>
    <object objectType="Sequence" objectID="DD9D3CA3-2E7E-2D44-6C29-197232AB437E" name="LETTERSECTION_ID_SEQ" seqName="seg_0"/>
    <object objectType="Sequence" objectID="3260DC00-78DA-36EB-728A-4138203F6BC5" name="LETTER_ID_SEQ" seqName="seg_0"/>
    <object objectType="Sequence" objectID="110A378D-95CE-83E1-E578-FFEA69644347" name="STANDARDPARAGRAPH_ID_SEQ" seqName="seg_0"/>
