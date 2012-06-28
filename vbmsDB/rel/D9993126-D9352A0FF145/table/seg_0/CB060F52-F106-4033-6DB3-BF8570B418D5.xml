@@ -45,6 +45,7 @@
 <Column name="ID" id="232CB3EA-CFD7-0337-85CF-0C4D15357B24">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The unique ID of the development activity.</comment>
 <commentInRDBMS>The unique ID of the development activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,74 +55,10 @@
 <dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NAME" id="433ED348-8383-7B95-8429-3487E9E5A4A4">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<commentInRDBMS>The name of the development activity.</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 BYTE</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SORTORDER" id="EFA839EE-9BB1-99B7-5A5B-90E685465FCE">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<defaultValue>0</defaultValue>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="EVIDENCEIND" id="05C89ABC-5A34-7011-CF7E-D6E2AAFE1240">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<commentInRDBMS>This is the evidenceInd flag column. Default is set to 0 (false).</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<constraintName>CK_DEVACTIVITYv1_EVIDENCEIND</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<defaultValue>0</defaultValue>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<checkConstraint>
-<implementationDef dbType="Oracle Database 10g" definition="EVIDENCEIND IN(0, 1)"/>
-</checkConstraint>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CREATEDT" id="211CB4AE-885F-7A5D-A291-C972A2E6BD49">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<commentInRDBMS>This is the date and time that the record was created.</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<defaultValue>SYSDATE</defaultValue>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LASTUPDATEDT" id="6AC79079-6D28-E6A6-C6FE-5E57355FBCD8">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:34:33 UTC</createdTime>
-<commentInRDBMS>This is the date and time that the record was last updated.</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<defaultValue>SYSDATE</defaultValue>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="DEVELOPMENTTASK_ID" id="9E59FD16-1D46-2C6C-2900-533E40C83253">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The ID of the development task related to this development activity.</comment>
 <commentInRDBMS>The ID of the development task related to this development activity.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -134,16 +71,86 @@
 <colAssociation fkAssociation="EBA95793-72E8-DD12-1797-654BAA747A9A" referredColumn="4A7889B2-F948-C44C-6C33-D16F4C3ADA57"/>
 </associations>
 </Column>
+<Column name="NAME" id="433ED348-8383-7B95-8429-3487E9E5A4A4">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The name of the development activity</comment>
+<commentInRDBMS>The name of the development activity.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SORTORDER" id="EFA839EE-9BB1-99B7-5A5B-90E685465FCE">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The sort order column used when displaying development activities. Default is set to 0 (false).</comment>
+<commentInRDBMS>This is the sort order column. Default is set to 0.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVIDENCEIND" id="05C89ABC-5A34-7011-CF7E-D6E2AAFE1240">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The evidence indicator flag. Default is set to 0 (false).</comment>
+<commentInRDBMS>This is the evidenceInd flag column. Default is set to 0 (false).</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<constraintName>CK_DEVACTIVITYv1_EVIDENCEIND</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>0</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="EVIDENCEIND IN(0, 1)"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="211CB4AE-885F-7A5D-A291-C972A2E6BD49">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The date and time development activity record was created.</comment>
+<commentInRDBMS>This is the date and time that the record was created.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTUPDATEDT" id="6AC79079-6D28-E6A6-C6FE-5E57355FBCD8">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>The date and time development activity record was last updated.</comment>
+<commentInRDBMS>This is the date and time that the record was last updated.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>SYSDATE</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="EXPIRATIONDT" id="74CBF30C-B04F-ADB5-0CC1-43BCEC3D9522">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:34:33 UTC</createdTime>
+<comment>Soft delete date for a development activity. Null represents active.</comment>
 <commentInRDBMS>This is the delete date for a development activity - null means our development activity is active.</commentInRDBMS>
 <ownerDesignName>vbmsDB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
