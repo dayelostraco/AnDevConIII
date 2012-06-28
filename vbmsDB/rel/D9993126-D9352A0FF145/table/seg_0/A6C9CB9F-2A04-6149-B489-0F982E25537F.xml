@@ -132,6 +132,16 @@
 <colAssociation fkAssociation="E770A63D-091A-67CE-37F8-5E834D490E42" referredColumn="E2D87173-6151-5267-B608-5C27E499AB6B"/>
 </associations>
 </Column>
+<Column name="SORTORDER" id="E9BEBE91-97DC-8CAD-5C8B-21C9F7557587">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-28 14:46:11 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C704ABC6-EE66-019F-6387-A52DC9144E48</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2C27D7E6-BB79-A5CE-E300-C0F09CCDFE07" name="LETTERCONTENT_PK">
