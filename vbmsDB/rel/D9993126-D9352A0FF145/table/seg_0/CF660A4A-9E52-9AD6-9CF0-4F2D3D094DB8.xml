@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="CF660A4A-9E52-9AD6-9CF0-4F2D3D094DB8" directorySegmentName="seg_0" name="LETTERSECTION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="CF660A4A-9E52-9AD6-9CF0-4F2D3D094DB8" directorySegmentName="seg_0" name="LETTERSECTIONv1">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-28 14:02:26 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
+<schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
 <pkName>LETTERSECTION_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
