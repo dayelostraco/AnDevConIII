@@ -3,7 +3,7 @@
    <createdBy>grantlewis</createdBy>
    <createdTime>2012-06-28 13:16:12 UTC</createdTime>
    <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 17:55:40 UTC</changedTime>
+   <changedTime>2012-06-28 18:04:21 UTC</changedTime>
    <ownerDesignName>vbmsDB</ownerDesignName>
    <schemaObject>3D55EA2D-77C8-5296-8367-EF3BDA36FEB7</schemaObject>
    <pkName>LETTERCONTENT_PK</pkName>
@@ -176,6 +176,18 @@
          <changedBy>ryanmoore</changedBy>
          <changedTime>2012-06-28 17:55:38 UTC</changedTime>
          <ownerDesignName>vbmsDB</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EXPIRATIONDT" id="9A3A2252-01C6-4A71-83E1-F305E9289F45">
+         <createdBy>ryanmoore</createdBy>
+         <createdTime>2012-06-28 18:03:47 UTC</createdTime>
+         <changedBy>ryanmoore</changedBy>
+         <changedTime>2012-06-28 18:04:20 UTC</changedTime>
+         <ownerDesignName>vbmsDB</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
          <use>0</use>
          <logicalDatatype>LOGDT007</logicalDatatype>
          <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
