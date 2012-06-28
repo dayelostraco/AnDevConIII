@@ -44,4 +44,5 @@
    <object objectType="Trigger" objectID="21D0FDC8-138A-659C-ECF2-81B92F9E7DC6" name="LAST_UPD_DEVPLANACTIVITY" seqName="seg_0"/>
    <object objectType="Trigger" objectID="12362BE3-E39C-63EF-DB00-34F415046A47" name="LAST_UPD_DEVPLANTASK" seqName="seg_0"/>
    <object objectType="Trigger" objectID="D8F2B1AC-2334-8BD0-F390-5CB9DF11D0D3" name="LAST_UPD_FILLINVALUE" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="F0787986-4372-71D8-D3C4-7700EE52C49B" name="LAST_UPD_LETTERCONTENT" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="LAST_UPD_LETTERCONTENT" id="F0787986-4372-71D8-D3C4-7700EE52C49B" directorySegmentName="seg_0">
+   <createdBy>ryanmoore</createdBy>
+   <createdTime>2012-06-28 17:56:51 UTC</createdTime>
+   <changedBy>ryanmoore</changedBy>
+   <changedTime>2012-06-28 17:57:05 UTC</changedTime>
+   <ownerDesignName>vbmsDB</ownerDesignName>
+   <actions>UPDATE</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;      :NEW.LASTUPDATEDT := SYSDATE;&amp;lt;br/&amp;gt;END;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>698E5AED-6B01-3BE9-CE16-0C66C6723CBB</owner>
+   <table>A6C9CB9F-2A04-6149-B489-0F982E25537F</table>
+</TriggerOraclev10g>
