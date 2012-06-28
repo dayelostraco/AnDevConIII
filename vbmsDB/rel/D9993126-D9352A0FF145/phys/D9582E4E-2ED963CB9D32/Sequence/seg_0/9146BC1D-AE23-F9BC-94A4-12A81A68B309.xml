@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="DEVELOPMENTPLAN_ID_SEG" id="9146BC1D-AE23-F9BC-94A4-12A81A68B309" directorySegmentName="seg_0">
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="DEVELOPMENTPLAN_ID_SEQ" id="9146BC1D-AE23-F9BC-94A4-12A81A68B309" directorySegmentName="seg_0">
 <createdBy>scottsimon</createdBy>
 <createdTime>2012-06-28 17:32:07 UTC</createdTime>
 <ownerDesignName>vbmsDB</ownerDesignName>
