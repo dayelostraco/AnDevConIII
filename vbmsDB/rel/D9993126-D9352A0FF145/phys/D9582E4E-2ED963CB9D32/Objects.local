@@ -41,12 +41,12 @@
    <object objectType="Sequence" objectID="110A378D-95CE-83E1-E578-FFEA69644347" name="STANDARDPARAGRAPH_ID_SEQ" seqName="seg_0"/>
    <object objectType="Trigger" objectID="1B8FAD37-A865-D826-E954-9E4A049BAA93" name="BEFORE_INS_LETTER" seqName="seg_0"/>
    <object objectType="Trigger" objectID="F49FA30D-1A9B-7129-5BB8-70DA07454DD4" name="BEFORE_UPD_DEVELOPMENTACTIVITY" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="EB0E8E0F-8C78-1E9D-C8CE-B9E70EBACFF5" name="BEFORE_UPD_DEVELOPMENTTASK" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="8056080F-27BA-5D09-7768-71CBCDC2C8AD" name="BEFORE_UPD_DEVPLANACTION" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="21D0FDC8-138A-659C-ECF2-81B92F9E7DC6" name="BEFORE_UPD_DEVPLANACTIVITY" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="12362BE3-E39C-63EF-DB00-34F415046A47" name="BEFORE_UPD_DEVPLANTASK" seqName="seg_0"/>
    <object objectType="Trigger" objectID="0446FDE2-B8AE-CFB5-3477-BF82C853EF62" name="BEFORE_UPD_DEVSTATUS_LU" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="D8F2B1AC-2334-8BD0-F390-5CB9DF11D0D3" name="BEFORE_UPD_FILLINVALUE" seqName="seg_0"/>
    <object objectType="Trigger" objectID="5D87443B-1B82-53F5-31DA-F83397880746" name="BEFORE_UPD_LETTER" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="EB0E8E0F-8C78-1E9D-C8CE-B9E70EBACFF5" name="LAST_UPD_DEVELOPMENTTASK" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="8056080F-27BA-5D09-7768-71CBCDC2C8AD" name="LAST_UPD_DEVPLANACTION" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="21D0FDC8-138A-659C-ECF2-81B92F9E7DC6" name="LAST_UPD_DEVPLANACTIVITY" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="12362BE3-E39C-63EF-DB00-34F415046A47" name="LAST_UPD_DEVPLANTASK" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="D8F2B1AC-2334-8BD0-F390-5CB9DF11D0D3" name="LAST_UPD_FILLINVALUE" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="F0787986-4372-71D8-D3C4-7700EE52C49B" name="LAST_UPD_LETTERCONTENT" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="F0787986-4372-71D8-D3C4-7700EE52C49B" name="BEFORE_UPD_LETTERCONTENT" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

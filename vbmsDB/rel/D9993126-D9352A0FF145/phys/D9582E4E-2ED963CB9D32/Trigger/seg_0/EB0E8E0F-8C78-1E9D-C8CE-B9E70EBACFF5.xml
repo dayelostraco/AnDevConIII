@@ -1,13 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="LAST_UPD_DEVELOPMENTTASK" id="EB0E8E0F-8C78-1E9D-C8CE-B9E70EBACFF5" directorySegmentName="seg_0">
-   <createdBy>ryanmoore</createdBy>
-   <createdTime>2012-06-28 17:50:23 UTC</createdTime>
-   <changedBy>ryanmoore</changedBy>
-   <changedTime>2012-06-28 17:50:36 UTC</changedTime>
-   <ownerDesignName>vbmsDB</ownerDesignName>
-   <actions>UPDATE</actions>
-   <body>BEGIN&amp;lt;br/&amp;gt;      :NEW.LASTUPDATEDT := SYSDATE;&amp;lt;br/&amp;gt;END;</body>
-   <triggerTime>BEFORE</triggerTime>
-   <owner>698E5AED-6B01-3BE9-CE16-0C66C6723CBB</owner>
-   <table>AE909301-6377-1CB2-E7B2-677319CC2DCF</table>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BEFORE_UPD_DEVELOPMENTTASK" id="EB0E8E0F-8C78-1E9D-C8CE-B9E70EBACFF5" directorySegmentName="seg_0">
+<createdBy>ryanmoore</createdBy>
+<createdTime>2012-06-28 17:50:23 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<actions>UPDATE</actions>
+<body>BEGIN&lt;br/&gt;      :NEW.LASTUPDATEDT := SYSDATE;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>698E5AED-6B01-3BE9-CE16-0C66C6723CBB</owner>
+<table>AE909301-6377-1CB2-E7B2-677319CC2DCF</table>
 </TriggerOraclev10g>
