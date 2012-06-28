@@ -13,8 +13,8 @@
    <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
    <object objectType="Table" objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="A6C9CB9F-2A04-6149-B489-0F982E25537F" name="LETTERCONTENT" seqName="seg_0"/>
    <object objectType="Table" objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" name="DEVELOPMENTTASK" seqName="seg_0"/>
-   <object objectType="Table" objectID="B284BA64-280E-1BF4-CF7B-62A603D1A2BF" name="SECTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
    <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" name="DEVELOPMENTPLAN" seqName="seg_0"/>
@@ -24,6 +24,20 @@
    <object objectType="Table" objectID="F13BEF37-131E-BEC4-F2B1-611AD50A60D3" name="FILLIN" seqName="seg_0"/>
    <object objectType="Segment" objectID="A56DAC81-B2AF-95EF-0A7E-849F9FFCF947" name="Storage1" seqName="seg_0"/>
    <object objectType="Segment" objectID="731DB386-C854-0127-F483-42BD17C99693" name="Storage2" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="03BF93F7-7931-71EA-42B5-D93A350BAFCA" name="CUSTOMPARAGRAPH_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="CDD704C7-9918-B946-65F5-87643C33480B" name="DEVELOPMENTACTION_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="5029E9AD-6803-7404-1556-C151EFDE9931" name="DEVELOPMENTACTIVITY_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="5230112C-F342-EADB-27A0-AF55B9F822D3" name="DEVELOPMENTPLANACTION_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="3B5ABF70-05E0-7DC0-3D59-AA47C2BD01E4" name="DEVELOPMENTPLANACTIVITY_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="E7BA0276-F792-7AA7-84A1-563F50C6C227" name="DEVELOPMENTPLANTASK_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="9146BC1D-AE23-F9BC-94A4-12A81A68B309" name="DEVELOPMENTPLAN_ID_SEG" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="99FF255C-878D-FE66-674F-A34E375652D1" name="DEVELOPMENTTASK_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="C5131931-37BE-D9FE-F9A7-BE245B38FF49" name="FILLINVALUE_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="BD9534B0-4515-3CD3-74DC-21A6F44D025E" name="FILLIN_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="75E79E14-750C-A26E-0E80-C11CEE24947A" name="LETTERCONTENT" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="DD9D3CA3-2E7E-2D44-6C29-197232AB437E" name="LETTERSECTION_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="3260DC00-78DA-36EB-728A-4138203F6BC5" name="LETTER_ID_SEQ" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="110A378D-95CE-83E1-E578-FFEA69644347" name="STANDARDPARAGRAPH_ID_SEQ" seqName="seg_0"/>
    <object objectType="Trigger" objectID="1B8FAD37-A865-D826-E954-9E4A049BAA93" name="BEFORE_INS_LETTER" seqName="seg_0"/>
    <object objectType="Trigger" objectID="5D87443B-1B82-53F5-31DA-F83397880746" name="BEFORE_UPD_LETTER" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

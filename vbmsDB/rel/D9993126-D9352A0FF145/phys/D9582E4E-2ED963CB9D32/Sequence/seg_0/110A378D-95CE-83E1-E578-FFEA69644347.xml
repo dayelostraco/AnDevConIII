@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="STANDARDPARAGRAPH_ID_SEQ" id="110A378D-95CE-83E1-E578-FFEA69644347" directorySegmentName="seg_0">
+<createdBy>scottsimon</createdBy>
+<createdTime>2012-06-28 17:43:34 UTC</createdTime>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<cache>1000</cache>
+<user>698E5AED-6B01-3BE9-CE16-0C66C6723CBB</user>
+</SequenceOraclev10g>
