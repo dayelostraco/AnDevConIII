@@ -120,7 +120,7 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LASTUPDATEDT" id="3E15878E-B7CC-EB7C-5D0B-547FC4F9EB27">

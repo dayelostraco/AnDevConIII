@@ -55,6 +55,19 @@
 <dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NAME" id="C822DB9D-981A-3EED-BD12-F04D5F37DBB3">
+<createdBy>grantlewis</createdBy>
+<createdTime>2012-06-27 00:36:38 UTC</createdTime>
+<comment>This is the name of the development task.</comment>
+<commentInRDBMS>Name of the task.</commentInRDBMS>
+<ownerDesignName>vbmsDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CREATEDT" id="23609859-F972-92A6-D75A-9C094FFB87D6">
 <createdBy>grantlewis</createdBy>
 <createdTime>2012-06-27 00:36:38 UTC</createdTime>
@@ -66,6 +79,7 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LASTUPDATEDT" id="D95965AA-0196-502F-579A-2BBEFF85FCB3">
@@ -79,19 +93,6 @@
 <defaultValue>SYSDATE</defaultValue>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NAME" id="C822DB9D-981A-3EED-BD12-F04D5F37DBB3">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-27 00:36:38 UTC</createdTime>
-<comment>This is the name of the development task.</comment>
-<commentInRDBMS>Name of the task.</commentInRDBMS>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 BYTE</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="EXPIRATIONDT" id="4A0B8F20-FC0D-D518-5EAE-9E884FE0AF2E">

@@ -13,8 +13,8 @@
    <object objectType="Table" objectID="5E8B007E-2BC5-B28D-6C88-2D989D935FD2" name="FILLINVALUE" seqName="seg_0"/>
    <object objectType="Table" objectID="6E0ED2F1-16F5-49A9-D822-68F05417044F" name="DEVELOPMENTACTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="8DB151BB-70A4-AD80-D59D-E20B88BF25BB" name="DEVELOPMENTPLANACTIVITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="A6C9CB9F-2A04-6149-B489-0F982E25537F" name="LETTERCONTENT" seqName="seg_0"/>
    <object objectType="Table" objectID="AE909301-6377-1CB2-E7B2-677319CC2DCF" name="DEVELOPMENTTASK" seqName="seg_0"/>
-   <object objectType="Table" objectID="B284BA64-280E-1BF4-CF7B-62A603D1A2BF" name="SECTIONPARAGRAPH" seqName="seg_0"/>
    <object objectType="Table" objectID="B78B4776-4A2F-8ED7-FA81-05024857BC37" name="DEVELOPMENTPLANACTION" seqName="seg_0"/>
    <object objectType="Table" objectID="BCD85E40-960D-7ACF-F3C8-AF60EF0CFF87" name="PARAGRAPHFILLIN" seqName="seg_0"/>
    <object objectType="Table" objectID="BE932842-89B5-4059-93F7-AADE684CC8E4" name="DEVELOPMENTPLAN" seqName="seg_0"/>

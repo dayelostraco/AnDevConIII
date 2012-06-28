@@ -140,6 +140,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>EC3FEAC0-7B00-E585-D495-D9E7518AB603</domain>
+<usesDefaultValue>true</usesDefaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LASTUPDATEDT" id="53F52E89-D334-7166-1D19-C1E82C8F9F12">
