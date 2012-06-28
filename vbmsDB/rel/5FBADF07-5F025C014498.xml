@@ -1,15 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="VBMS R3 Model" id="5FBADF07-A54B-F85B-A18B-5F025C014498" mainViewID="604319EF-DF11-8AC2-B304-27F544835EF1">
-<createdBy>grantlewis</createdBy>
-<createdTime>2012-06-26 17:59:25 UTC</createdTime>
-<ownerDesignName>vbmsDB</ownerDesignName>
-<shouldBeOpen>true</shouldBeOpen>
-<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
-<importDDLFileStamps>
-<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
-<fileName>DevActionAndLetterDDL.sql</fileName>
-<pathName>/Users/grantlewis/Projects/vbms</pathName>
-<dbType>10</dbType>
-</importDDLFileStamp>
-</importDDLFileStamps>
+   <createdBy>grantlewis</createdBy>
+   <createdTime>2012-06-26 17:59:25 UTC</createdTime>
+   <changedBy>ryanmoore</changedBy>
+   <changedTime>2012-06-28 15:06:47 UTC</changedTime>
+   <ownerDesignName>vbmsDB</ownerDesignName>
+   <shouldBeOpen>true</shouldBeOpen>
+   <selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
 </relationalModel>
